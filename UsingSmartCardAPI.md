@@ -16,7 +16,7 @@ The tutorial refers to the shared library based SmartCard API implementing the O
 
 ### Setting up the Environment ###
 The Eclipse development environment needs to be configured in order to use the official SDK from Google as described in the Google documentation. In addition, the SDK needs to have access to the Open Mobile API addon package.
-<table><tr><td valign='top'>
+
 <ul><li>Start the <i>Android SDK Manager</i> by launching <code>android</code> on the command line<br />
 </li><li>Click on <i>Tools</i> -> <i>Manage Add-on Sites...</i><br />
 </li><li>Go to <i>User Defined Sites</i> and add the new repository <code>http://seek-for-android.googlecode.com/svn/trunk/repository/18/addon.xml</code> and close the dialog<br />
@@ -27,16 +27,15 @@ The Eclipse development environment needs to be configured in order to use the o
 </li><li>18 - API level 18, Android 4.3<br>
 </li><li>19 - API level 18, Android 4.4<br>
 </li></ul></li><li>When the application should be compiled for different API levels it's recommended to add all versions of the Open Mobile API to the addon manager<br>
-</td>
-<td>
+
 <img src='http://seek-for-android.googlecode.com/svn/wiki/img/UsingSCAPI_Addon-Sites.png' />
-</td></tr><tr><td valign='top'>
+
 </li><li><i>Reload</i> the packages selecting <i>Packages</i> -> <i>Reload</i><br />
 </li><li>Select <i>Open Mobile API</i> under <i>Android 4.4</i> and install the package add-on<br />
 </li><li>The Android SDK Manager installed the Open Mobile API addon package from SEEK to develop Secure Element aware applications.<br>
-</td><td>
+
 <img src='http://seek-for-android.googlecode.com/svn/wiki/img/UsingSCAPI_SDK-Manager.png' />
-</td></tr></table>
+
 <br /></li></ul>
 
 # Hello, Smart Card. #
