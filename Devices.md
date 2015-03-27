@@ -5,7 +5,7 @@ Android is running on different devices from various manufacturers. With the per
 The following devices were used for SmartCard API development and internal testing according to [Building the System](BuildingTheSystem)
 
 
-| Device| ASSD support| UICC support| eSE support| Notes |
+| **Device** | ASSD support| UICC support| eSE support| Notes |
 |:--------|:-----|:-----|:--------|:------|
 | ADP1 (dream)| 1.1.0 | - | n/a | not supported anymore, last release SCAPI 1.1 |
 | ADP2 (sapphire) | 1.2.0 | - | n/a | not supported anymore, last release SCAPI 1.2 |
