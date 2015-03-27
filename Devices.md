@@ -17,11 +17,11 @@ The following devices were used for SmartCard API development and internal testi
 | Device| ASSD support| UICC support| eSE support| Notes |
 |:--------|:-----|:-----|:--------|:------|
 | ADP1 (dream)| 1.1.0 | - | n/a | not supported anymore, last release SCAPI 1.1 |
-| ADP2 (sapphire) | 1.2.0 | 5 | 4.3 | 2.04 |
-| Nexus One (Passion) | 2.3.0 | 4 | 4.2.2 | 2.03 |
-| Nexus S (crespo) | n/a | 3 | 4.0.3 | 2.03 |
-| Galaxy Nexus (maguro) | n/a | 2 | 4.0.3 | 2.02 |
-| Xoom (wingray) | 2.4.0 | 0 | 4.0.3 | 2.02 |
+| ADP2 (sapphire) | 1.2.0 | - | n/a | not supported anymore, last release SCAPI 1.2 |
+| Nexus One (Passion) | 2.3.0 | - | n/a | not supported anymore, last release SCAPI 2.3.0 |
+| Nexus S (crespo) | n/a | 2.4.0 (1) | 2.4.0 (2) | not supported anymore, last release SCAPI 2.4.0 |
+| Galaxy Nexus (maguro) | n/a | - | 3.0.0 (2) | reference for eSE development |
+| Xoom (wingray) | 2.4.0 | - | n/a | not supported anymore, last release SCAPI 2.4.0 |
 
 _note.1_ required baseband firmware & RIL files are not available in public!<br />
 _note.2_ eSE secure messaging keys are not available in public!<br />
