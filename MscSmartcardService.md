@@ -16,9 +16,7 @@ The MSC drivers uses the host operating file system calls to transfer the APDUs 
 <br>
 It is required that no caching mechanism is in between that block direct file access, e.g. when a crypto layer is in between.<br>
 <br>
-<table>
-<tr>
-<td width='55%' valign='top'>
+
 <h1>Installation</h1>
 To test the <i>MSC SmartcardService</i>
 <ul><li>delete older version of MSC SmartcardService.apk and OpenMobileAPISample.apk on the phone</li></ul>
@@ -36,15 +34,8 @@ To test the <i>MSC SmartcardService</i>
 <ul><li>on the phone, run the OpenMobileAPISample application and see the log output</li></ul>
 
 <ul><li>a GlobalPlatform compliant Access Control applet is optional for the Mobile Security card. If it is installed, the MSC Smartcard Service will grant access to the Mobile Security Card based on the rules that the applet defines. When no applet is install full access for all applications is granted.<br>
-</td>
-<td width='5%'>
-</td>
-<td width='40%'>
-<img src='http://seek-for-android.googlecode.com/svn/wiki/img/MscSmartcardService_screenshot.png' width='250' />
-</td>
-</tr>
-</table></li></ul>
-
+</li></ul>
+![mscsmartcardservice_screenshot](https://cloud.githubusercontent.com/assets/11645011/6866387/f2614e12-d477-11e4-94ef-ffe40f4ff61c.png)<br>
 <h1>Development</h1>
 The <i>MSC SmartcardService</i> provides the <b>same</b> interface as the SmartCard API so application developers can write and test their applications with the installable version and have no migration issues later on. Note that the package names are different for the <i>MSC SmartcardService</i> (com.mobilesecuritycard.<code>*</code>) and the SmartCard API (org.simalliance.<code>*</code>).<br />
 Use the provided com.mobilesecuritycard.openmobileapi.jar and the sample project to develop Android applications.<br>
