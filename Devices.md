@@ -4,15 +4,6 @@ Android is running on different devices from various manufacturers. With the per
 ### Development devices ###
 The following devices were used for SmartCard API development and internal testing according to [Building the System](BuildingTheSystem)
 
-| **Device** | **ASSD support** | **UICC support**| **eSE support** | | **Notes** |
-
-|:-----------|:-----------------|:-----------------|:----------------|:|:----------|
-| ADP1 (dream) |  | 1.1.0 | - | n/a |  | not supported anymore, last release SCAPI 1.1 |
-| ADP2 (sapphire) |  | 1.2.0 | - | n/a |  | not supported anymore, last release SCAPI 1.2 |
-| Nexus One (passion) |  | 2.3.0 | - | n/a |  | not supported anymore, last release SCAPI 2.3.0 |
-| Nexus S (crespo) |  | n/a | 2.4.0 _(1)_ | 2.4.0 _(2)_ |  | not supported anymore, last release  SCAPI 2.4.0 |
-| Galaxy Nexus (maguro) |  | n/a | - | 3.0.0 _(2)_ |  | reference for eSE development |
-| Xoom (wingray) |  | 2.4.0 | - | n/a |  | not supported anymore, last release  SCAPI 2.4.0 |
 
 | Device| ASSD support| UICC support| eSE support| Notes |
 |:--------|:-----|:-----|:--------|:------|
