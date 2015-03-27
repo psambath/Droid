@@ -1,15 +1,5 @@
 # Secure Element Evaluation Kit for the Android platform #
 
-<table>
-<tr>
-<td width='80%' valign='top'>
-</td>
-<td width='10%' valign='top'>
-</td>
-<td width='10%' valign='top'>
-</td>
-</tr>
-</table>
 
 ## Latest News ##
   * **New version available:** Smartcard API 3.2.1 (based on Android 4.4 KitKat) is already available for download [here](https://docs.google.com/file/d/0B63jMJOYc2l3UXJFWVdaQUlyeFk/edit).
