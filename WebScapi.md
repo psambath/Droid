@@ -44,16 +44,13 @@ For a simple test, push the small HTML demo on the device and open it in the And
 $ adb push packages/apps/WebScapi/html/WebScapi.js /sdcard/<br>
 </code></pre>
 
-<table><tr>
-<td width='40%' valign='top'>Within the browser, open the URI<br>
+
+Within the browser, open the URI<br>
 <pre><code>file:///sdcard/index.html<br>
 </code></pre>
+![webscapi-sample](https://cloud.githubusercontent.com/assets/11645011/6865865/ab66efd0-d472-11e4-8ea8-6800557badd4.png)
 The PerformanceTester application will be converted to HTML in a next step.<br /><br />
 <h4>Creating an application</h4>
 Include the Javascript code from <code>WebScapi.js</code> as provided in the sample application, create an instance of <code>SEService</code> and use all interfaces of the OpenMobile API as is <i>native</i> Android applications.<br>
-</td>
-<td width='10%'>
-</td>
-<td><img width='60%' src='http://seek-for-android.googlecode.com/svn/wiki/img/webscapi-sample.png' />
-</td></tr></table>
+
 Developed and tested with android-4.0.3_r1 with Nexus S and SIM & SmartMX as Secure Element.
