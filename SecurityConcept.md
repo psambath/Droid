@@ -18,9 +18,7 @@ The whole Android security scheme is based on standard UID/GID checks, therefore
 For example, it is possible that a _root_ user replaces APKs or native system services with modified versions that contain tracers or or hooks for other applications. This means that the security concept of the SmartCard API can be broken on rooted phones but this is not an issue of the API design but a general issue on Linux based systems where _root_ can do everything.<br /><br />
 
 ### SmartCard API System Security ###
-<table>
-<tr>
-<td width='35%' valign='top'>
+
 The SmartCard API system security discussion explains the mechanism needed so client applications cannot overcome the SmartCard API interface by using the lower level components directly.<br /><br />
 In order to protect the low level components, the SmartCard API remote process is installed and registered with a unique UID/GID: <b>smartcard</b><br /><br />
 All low level components and methods check for the caller UID and - if not <code>smartcard</code> - throw an exception.
