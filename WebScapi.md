@@ -48,7 +48,7 @@ $ adb push packages/apps/WebScapi/html/WebScapi.js /sdcard/<br>
 Within the browser, open the URI<br>
 <pre><code>file:///sdcard/index.html<br>
 </code></pre>
-![webscapi-sample](https://cloud.githubusercontent.com/assets/11645011/6865865/ab66efd0-d472-11e4-8ea8-6800557badd4.png)
+![webscapi-sample](https://cloud.githubusercontent.com/assets/11645011/6865865/ab66efd0-d472-11e4-8ea8-6800557badd4.png)<br>
 The PerformanceTester application will be converted to HTML in a next step.<br /><br />
 <h4>Creating an application</h4>
 Include the Javascript code from <code>WebScapi.js</code> as provided in the sample application, create an instance of <code>SEService</code> and use all interfaces of the OpenMobile API as is <i>native</i> Android applications.<br>
