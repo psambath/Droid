@@ -14,7 +14,7 @@ This extension enables the Android emulator to forward any APDU traffic (AT+CRSM
 <td>
 </td>
 <td>
-<img src='http://seek-for-android.googlecode.com/svn/wiki/img/emulator-extensions.png' />
+![emulator-extensions](https://cloud.githubusercontent.com/assets/11645011/6865784/c87cc5c8-d471-11e4-8bcf-cfbcd8487c80.png)
 </td>
 </tr>
 </table>
@@ -74,9 +74,9 @@ http://seek-for-android.googlecode.com/svn/trunk/repository/<API-level>/addon.xm
 ```
 <ANDROID_ROOT_DIR>/out/host/linux-x86/sdk/android-sdk_eng.<username>_linux-x86/add-ons/
 ```
-> > ![http://seek-for-android.googlecode.com/svn/wiki/img/ScreenshotAndroidSDKManager.png](http://seek-for-android.googlecode.com/svn/wiki/img/ScreenshotAndroidSDKManager.png)
+> > ![screenshotandroidsdkmanager](https://cloud.githubusercontent.com/assets/11645011/6865787/ced35aea-d471-11e4-905e-2940f7353a34.png)
   * Create an AVD with behalf of the AVD Manager "Tools->Manage AVD's..."
-> > ![http://seek-for-android.googlecode.com/svn/wiki/img/ScreenshotAndroidVirtualDeviceManager.png](http://seek-for-android.googlecode.com/svn/wiki/img/ScreenshotAndroidVirtualDeviceManager.png)
+> > ![screenshotandroidvirtualdevicemanager](https://cloud.githubusercontent.com/assets/11645011/6865790/d5e844f8-d471-11e4-9342-ddfdf6edd6a5.png)
   * Start the emulator
 ```
 $ ./out/host/linux-x86/sdk/android-sdk_eng.<username>_linux-x86/tools/emulator @testAvd -pcsc 
@@ -93,7 +93,7 @@ sim_card.c: using card reader OMNIKEY AG CardMan 3121 00 00
 
   * To start the emulator from the eclipse ide, add the command line parameter "-pcsc" via _Run -> Debug Configurations/Run Configurations -> Additional Emulator Command Line Options_
 
-![http://seek-for-android.googlecode.com/svn/wiki/img/EmulatorExtensionScreenshot.png](http://seek-for-android.googlecode.com/svn/wiki/img/EmulatorExtensionScreenshot.png)
+![EmulatorExtensionScreenShoot](https://cloud.githubusercontent.com/assets/11645011/6865792/dd202178-d471-11e4-84f0-2125bd9e4fd9.png)
 
 ### 1.2 Speed up the emulator ###
 The default ARM image created with `make PRODUCT-sdk-sdk` might run a bit slow in `qemu` on the host machine but with KVM support and an x86 Android image the execution speed of the emulator can be enhanced A LOT.
