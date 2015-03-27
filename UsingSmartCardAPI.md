@@ -26,7 +26,7 @@ The Eclipse development environment needs to be configured in order to use the o
 </li><li>17 - API level 17, Android 4.2<br>
 </li><li>18 - API level 18, Android 4.3<br>
 </li><li>19 - API level 18, Android 4.4<br>
-</li></ul></li><li>When the application should be compiled for different API levels it's recommended to add all versions of the Open Mobile API to the addon manager<br></li>
+</li></li><li>When the application should be compiled for different API levels it's recommended to add all versions of the Open Mobile API to the addon manager<br></li></ul>
 
 ![](https://cloud.githubusercontent.com/assets/11645011/6865978/d5a4ebe8-d473-11e4-9d8b-aad881ea2d24.png)
 
