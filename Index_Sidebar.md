@@ -12,3 +12,36 @@
     * [Create an Addon Terminal](https://github.com/sunyer/seek-for-android/wiki/AddonTerminal)
     * [SmartCard API Version](https://github.com/sunyer/seek-for-android/wiki/RetrievingVersionInfo)
 * **Access Control**
+    * []()
+* **UICC Support**
+    * []()
+    * []()
+    * []()
+* **ASSD Support**
+    * []()
+    * []()
+* **MSC Support** 
+    * []()
+    * []()
+    * []()
+* **PC/SC Interface** 
+    * []()
+    * []()
+    * []()
+* **Service Layer**
+    * []()
+    * []()
+* **Applications**
+    * []()
+    * []()
+    * []()
+    * []()
+    * []()
+* [FAQS]()
+* [Abreviations]()
+* [Contributions]()
+
+
+
+
+
