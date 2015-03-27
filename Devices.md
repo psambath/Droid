@@ -17,18 +17,11 @@ The following devices were used for SmartCard API development and internal testi
 | Device| ASSD support| UICC support| eSE support| OMAPI |
 |:--------|:-----|:-----|:--------|:------|
 | ADP1 (dream)| 15.07.2014 | 6 | 4.4.4 | 2.05 |
-| 3.1.0 | 27.09.2013 | 5 | 4.3 | 2.04 |
-| 3.0.0 | 07.04.2013 | 4 | 4.2.2 | 2.03 |
-| 2.4.0 | 05.07.2012 | 3 | 4.0.3 | 2.03 |
-| 2.3.2 | 06.02.2012 | 2 | 4.0.3 | 2.02 |
-| 2.3.1-rc1 | 20.01.2012 | 0 | 4.0.3 | 2.02 |
-| 2.3.0 | 05.12.2011 | 1 | 2.3.7 | 2.02 |
-| 2.2.2 | 23.08.2011 | - | 2.3.5 | 1.01 |
-| 2.2.1 | 15.07.2011 | - | 2.3.4 | 1.01 |
-| 2.2.0 | 01.07.2011 | - | 2.3.4 | 1.01 |
-| 2.1.2 | 21.06.2011 | - | 2.3 |  |
-| 2.1.1 | 15.04.2011 | - | 2.3 |  |
-| 2.0 | 28.02.2011 | - | 2.3 |  |
+| ADP2 (sapphire) | 27.09.2013 | 5 | 4.3 | 2.04 |
+| Nexus One (Passion) | 07.04.2013 | 4 | 4.2.2 | 2.03 |
+| Nexus S (crespo) | 05.07.2012 | 3 | 4.0.3 | 2.03 |
+| Galaxy Nexus (maguro) | 06.02.2012 | 2 | 4.0.3 | 2.02 |
+| Xoom (wingray) | 20.01.2012 | 0 | 4.0.3 | 2.02 |
 
 _note.1_ required baseband firmware & RIL files are not available in public!<br />
 _note.2_ eSE secure messaging keys are not available in public!<br />
