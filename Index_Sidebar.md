@@ -18,12 +18,12 @@
     * [BIP Extensions](https://github.com/sunyer/seek-for-android/wiki/BIP_Extensions)
     * [EAP-SIM/AKA](https://github.com/sunyer/seek-for-android/wiki/EapSimAka)
 * **ASSD Support**
-    * [](https://github.com/sunyer/seek-for-android/wiki/)
-    * [](https://github.com/sunyer/seek-for-android/wiki/)
+    * [Concept](https://github.com/sunyer/seek-for-android/wiki/Concept)
+    * [How To Build](https://github.com/sunyer/seek-for-android/wiki/HowToBuild)
 * **MSC Support** 
-    * [](https://github.com/sunyer/seek-for-android/wiki/)
-    * [](https://github.com/sunyer/seek-for-android/wiki/)
-    * [](https://github.com/sunyer/seek-for-android/wiki/)
+    * [MSC Smartcard Service](https://github.com/sunyer/seek-for-android/wiki/MscSmartcardService)
+    * [MSC Plugin Terminal](https://github.com/sunyer/seek-for-android/wiki/MscPluginTerminal)
+    * [Version History](https://github.com/sunyer/seek-for-android/wiki/MscVersionHistory)
 * **PC/SC Interface** 
     * [](https://github.com/sunyer/seek-for-android/wiki/)
     * [](https://github.com/sunyer/seek-for-android/wiki/)
