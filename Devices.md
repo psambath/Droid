@@ -14,9 +14,9 @@ The following devices were used for SmartCard API development and internal testi
 | Galaxy Nexus (maguro) |  | n/a | - | 3.0.0 _(2)_ |  | reference for eSE development |
 | Xoom (wingray) |  | 2.4.0 | - | n/a |  | not supported anymore, last release  SCAPI 2.4.0 |
 
-| Device| Date | Code | Android | OMAPI |
+| Device| ASSD support| UICC support| eSE support| OMAPI |
 |:--------|:-----|:-----|:--------|:------|
-| 3.2.1 | 15.07.2014 | 6 | 4.4.4 | 2.05 |
+| ADP1 (dream)| 15.07.2014 | 6 | 4.4.4 | 2.05 |
 | 3.1.0 | 27.09.2013 | 5 | 4.3 | 2.04 |
 | 3.0.0 | 07.04.2013 | 4 | 4.2.2 | 2.03 |
 | 2.4.0 | 05.07.2012 | 3 | 4.0.3 | 2.03 |
