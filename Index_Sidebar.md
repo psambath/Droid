@@ -1,4 +1,4 @@
-* ## Introduction ##
+* # Introduction #
     * [SmartCard API](https://github.com/sunyer/seek-for-android/wiki/SmartcardAPI)
     * [Security Concept]
     * [Device Support]
