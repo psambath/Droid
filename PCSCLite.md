@@ -28,4 +28,4 @@ A PC/SC IFDHandler for Android that connects to the Java-based SmartCard API wil
 Due to security considerations, it needs to be ensured that only system modules can access the PC/SC daemon.
 
 
-![http://seek-for-android.googlecode.com/svn/wiki/img/PCSC_Concept.png](http://seek-for-android.googlecode.com/svn/wiki/img/PCSC_Concept.png)
+![pcsc_concept](https://cloud.githubusercontent.com/assets/11645011/6866420/56852db4-d478-11e4-96d2-5e14d20601c6.png)
