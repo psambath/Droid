@@ -29,7 +29,6 @@ The Eclipse development environment needs to be configured in order to use the o
 </li></ul></li><li>When the application should be compiled for different API levels it's recommended to add all versions of the Open Mobile API to the addon manager<br>
 
 ![](https://cloud.githubusercontent.com/assets/11645011/6865978/d5a4ebe8-d473-11e4-9d8b-aad881ea2d24.png)
-
 </li><li><i>Reload</i> the packages selecting <i>Packages</i> -> <i>Reload</i><br />
 </li><li>Select <i>Open Mobile API</i> under <i>Android 4.4</i> and install the package add-on<br />
 </li><li>The Android SDK Manager installed the Open Mobile API addon package from SEEK to develop Secure Element aware applications.<br>
