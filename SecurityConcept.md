@@ -23,6 +23,7 @@ The SmartCard API system security discussion explains the mechanism needed so cl
 In order to protect the low level components, the SmartCard API remote process is installed and registered with a unique UID/GID: <b>smartcard</b><br /><br />
 All low level components and methods check for the caller UID and - if not <code>smartcard</code> - throw an exception.
 
+
 ![](https://cloud.githubusercontent.com/assets/11645011/6865711/f8b8acee-d470-11e4-882d-de786fe5f342.png)
 
 
