@@ -22,7 +22,7 @@ The SmartCard API consists of several software layers<br>
 <td width='40%'>
 
 ![](https://cloud.githubusercontent.com/assets/11645011/6865131/124e176c-d46b-11e4-9565-3fba4aea60e3.png)
-</a>
+
 
 
 </td>
