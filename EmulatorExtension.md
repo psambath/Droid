@@ -1,6 +1,4 @@
-<table>
-<tr>
-<td valign='top'>
+
 <h1>Introduction</h1>
 
 For using the Android emulator with a real SIM or microSD card with integrated secure element, the emulator must be built with PC/SC support through applies the emulator patch.<br />
@@ -10,14 +8,9 @@ For using the Android emulator with a real SIM or microSD card with integrated s
 The vanilla Android emulator supports a primitive SIM simulation which cannot be used to run applets or personalize files nor does it support Sim Toolkit functionality.<br />
 On real devices, the proprietary RIL library is very restrictive in terms of APDU access to the SIM or STK support and (normally) needs to be extended. However, on the emulator a patch can be applied in order to provide full SIM access through the host PC/SC system.<br />
 This extension enables the Android emulator to forward any APDU traffic (AT+CRSM, AT+CSIM, etc. commands) to a real SIM card that is connected through a PC/SC card reader and accessible with pcsc-lite running on the host. Additionally, this patch adds the missing support for the Sim Toolkit framework to the emulator's RIL implementation (reference-ril).<br>
-</td>
-<td>
-</td>
-<td>
+
 ![emulator-extensions](https://cloud.githubusercontent.com/assets/11645011/6865784/c87cc5c8-d471-11e4-8bcf-cfbcd8487c80.png)
-</td>
-</tr>
-</table>
+<br>
 
 ### 1.1 Applying the patch to the android sources ###
 
