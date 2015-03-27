@@ -14,14 +14,10 @@ The SmartCard API consists of several software layers<br>
 </li><li><b>xxxTerminal</b> Implementation of a Secure Element specific terminal, e.g. <code>UiccTerminal</code> or <code>ASSDTerminal</code>, ...<br />Integration in <code>packages/apps/SmartCardService/src/org/simalliance/openmobileapi/service/terminals</code><br />
 </li><li><b>Access Control</b> Implementation of the Access Control Enforcer to control APDU access from Android applications<br />Integration in <code>packages/apps/SmartCardService/src/org/simalliance/openmobileapi/service/security</code>
 
-![scapi_modules](https://cloud.githubusercontent.com/assets/11645011/6865131/124e176c-d46b-11e4-9565-3fba4aea60e3.png)
+![](https://cloud.githubusercontent.com/assets/11645011/6865131/124e176c-d46b-11e4-9565-3fba4aea60e3.png)
 
 
 
-</td>
-</tr>
-</table>
-<br /></li></ul>
 
 ## Architecture ##
 The core of the SmartCard API is encapsulated in a remote Android service. Having a single service instance instead of a pure framework library ensures that security checks (who is accessing the service) and resource management (free a logical channel if a client dies) can be guaranteed - even if a client application hangs or dies unexpectedly.<br />
