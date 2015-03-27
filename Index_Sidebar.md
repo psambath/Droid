@@ -25,12 +25,12 @@
     * [MSC Plugin Terminal](https://github.com/sunyer/seek-for-android/wiki/MscPluginTerminal)
     * [Version History](https://github.com/sunyer/seek-for-android/wiki/MscVersionHistory)
 * **PC/SC Interface** 
-    * [](https://github.com/sunyer/seek-for-android/wiki/)
-    * [](https://github.com/sunyer/seek-for-android/wiki/)
-    * [](https://github.com/sunyer/seek-for-android/wiki/)
+    * [PC/SC Lite Discussion](https://github.com/sunyer/seek-for-android/wiki/PCSCLite)
+    * [Pcscdroid - PC/SC Lite for Android](https://github.com/sunyer/seek-for-android/wiki/Pcscdroid)
+    * [PC/SC Support](https://github.com/sunyer/seek-for-android/wiki/PCSCSmartCardServiceIntro)
 * **Service Layer**
-    * [](https://github.com/sunyer/seek-for-android/wiki/)
-    * [](https://github.com/sunyer/seek-for-android/wiki/)
+    * [Service Layer API](https://github.com/sunyer/seek-for-android/wiki/ServiceLayer)
+    * [PKI Support on Android](https://github.com/sunyer/seek-for-android/wiki/SmartCardPKI)
 * **Applications**
     * [](https://github.com/sunyer/seek-for-android/wiki/)
     * [](https://github.com/sunyer/seek-for-android/wiki/)
@@ -40,7 +40,6 @@
 * [FAQS](https://github.com/sunyer/seek-for-android/wiki/)
 * [Abreviations](https://github.com/sunyer/seek-for-android/wiki/)
 * [Contributions](https://github.com/sunyer/seek-for-android/wiki/)
-
 
 
 
