@@ -1,8 +1,6 @@
 # Introduction #
 
-<table>
-<tr>
-<td width='35%' valign='top'>
+
 Since Version 2.4.0 the SmartCard API supports access control specified by Global Platform. It is a standard that enables several parties to independently and securely manage their stakes in a single Secure Element. It can be ensured that only allowed Android applications are able to access specific Java Card applets depending on the device APK certificate.<br>
 <br>
 An additional APDU filter scheme (based on an APDU whitelist) is established to have a more detailed control over the access mechanism of an application.<br>
@@ -11,18 +9,9 @@ The implementation relies on an extension of the handset integration in combinat
 <br>
 The specification can be found at Global Platform:<br>
 <a href='http://www.globalplatform.org/specificationsdevice.asp'>Secure Element Access Control</a>
-</td>
-<td width='5%'>
-</td>
-<td width='60%'>
-<a href='http://code.google.com/p/seek-for-android/wiki/ARA_overview_png'>
-<img src='http://seek-for-android.googlecode.com/svn/wiki/img/ARA_overview.png' height='300' />
-</a>
 <br />
-Click to enlarge<br>
-</td>
-</tr>
-</table>
+
+![ara_overview](https://cloud.githubusercontent.com/assets/11645011/6866185/192fbe86-d476-11e4-9a60-0544e848cd8e.png)
 
 ## Components ##
 
@@ -82,22 +71,12 @@ The NFC-AR-DO contains an NFC event access rule flag (allowed / not allowed).
 
 ## How does it work ##
 Scenario: a client application wants to communicate with a secure element application.
-<table>
-<tr>
-<td width='40%' valign='top'>
-<a href='http://code.google.com/p/seek-for-android/wiki/ARA_diagram_png'>
-<img src='http://seek-for-android.googlecode.com/svn/wiki/img/ARA_diagram.png' width='374' height='357' />
-</a>
+
+![ara_diagram](https://cloud.githubusercontent.com/assets/11645011/6866178/0747152a-d476-11e4-9ae6-54ae7e2d2fbb.png)
+
 <br />
-Click to enlarge<br>
-</td>
-<td width='15'>
-</td>
-<td valign='top'>
+
 1. A client application signed with a unique key tries to access a specific application through its AID on a Secure Element<br />
 2. ACE reads the AR for the specific AID and the applications certificate hash.<br />
 3. Grant access to the client application according to the access rule or deny access if no rule is found.<br />
 4. Client application can communicate with the SE applet if the command APDUs match the filter list (if given) checked by the ACE<br />
-</td>
-</tr>
-</table>
