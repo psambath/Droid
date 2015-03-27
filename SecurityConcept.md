@@ -23,19 +23,10 @@ For example, it is possible that a _root_ user replaces APKs or native system se
 <td width='35%' valign='top'>
 The SmartCard API system security discussion explains the mechanism needed so client applications cannot overcome the SmartCard API interface by using the lower level components directly.<br /><br />
 In order to protect the low level components, the SmartCard API remote process is installed and registered with a unique UID/GID: <b>smartcard</b><br /><br />
-All low level components and methods check for the caller UID and - if not <code>smartcard</code> - throw an exception.<br /><br />
-</td>
-<td width='5%'>
-</td>
-<td width='60%'>
-<a href='http://code.google.com/p/seek-for-android/wiki/SCAPI_hacking_png'>
-<img src='http://seek-for-android.googlecode.com/svn/wiki/img/SCAPI_hacking.png' width='250' height='235' />
-</a>
-<br />
-Click to enlarge<br>
-</td>
-</tr>
-</table>
+All low level components and methods check for the caller UID and - if not <code>smartcard</code> - throw an exception.
+
+![](https://cloud.githubusercontent.com/assets/11645011/6865711/f8b8acee-d470-11e4-882d-de786fe5f342.png)
+
 
 ### SmartCard API Access Control Scheme ###
 The access control scheme of the SmartCard API is a protection mechanism that ensures that only allowed (or certified) Android applications are able to access specific Java Card applets depending on the APK certificate.<br />
