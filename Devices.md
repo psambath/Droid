@@ -14,14 +14,14 @@ The following devices were used for SmartCard API development and internal testi
 | Galaxy Nexus (maguro) |  | n/a | - | 3.0.0 _(2)_ |  | reference for eSE development |
 | Xoom (wingray) |  | 2.4.0 | - | n/a |  | not supported anymore, last release  SCAPI 2.4.0 |
 
-| Device| ASSD support| UICC support| eSE support| OMAPI |
+| Device| ASSD support| UICC support| eSE support| Notes |
 |:--------|:-----|:-----|:--------|:------|
-| ADP1 (dream)| 15.07.2014 | 6 | 4.4.4 | 2.05 |
-| ADP2 (sapphire) | 27.09.2013 | 5 | 4.3 | 2.04 |
-| Nexus One (Passion) | 07.04.2013 | 4 | 4.2.2 | 2.03 |
-| Nexus S (crespo) | 05.07.2012 | 3 | 4.0.3 | 2.03 |
-| Galaxy Nexus (maguro) | 06.02.2012 | 2 | 4.0.3 | 2.02 |
-| Xoom (wingray) | 20.01.2012 | 0 | 4.0.3 | 2.02 |
+| ADP1 (dream)| 1.1.0 | - | n/a | not supported anymore, last release SCAPI 1.1 |
+| ADP2 (sapphire) | 1.2.0 | 5 | 4.3 | 2.04 |
+| Nexus One (Passion) | 2.3.0 | 4 | 4.2.2 | 2.03 |
+| Nexus S (crespo) | n/a | 3 | 4.0.3 | 2.03 |
+| Galaxy Nexus (maguro) | n/a | 2 | 4.0.3 | 2.02 |
+| Xoom (wingray) | 2.4.0 | 0 | 4.0.3 | 2.02 |
 
 _note.1_ required baseband firmware & RIL files are not available in public!<br />
 _note.2_ eSE secure messaging keys are not available in public!<br />
