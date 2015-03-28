@@ -38,7 +38,7 @@
     * [BTPCSC](https://github.com/sunyer/seek-for-android/wiki/BTPCSC)
     * [Secure File Manager](https://github.com/sunyer/seek-for-android/wiki/SecureFileManager)
 * [FAQS](https://github.com/sunyer/seek-for-android/wiki/Faq)
-* [Abreviations](https://github.com/sunyer/seek-for-android/wiki/Abbreviations)
+* [Abbreviations](https://github.com/sunyer/seek-for-android/wiki/Abbreviations)
 * [Contributions](https://github.com/sunyer/seek-for-android/wiki/Contributions)
 
 
