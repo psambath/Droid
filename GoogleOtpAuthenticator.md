@@ -35,17 +35,17 @@ An OATH calculation in software is possible but discouraged as the seed could ge
 
 <h1>Android Application</h1>
 
-<a href='http://code.google.com/p/seek-for-android/wiki/GoogleOtpAuthenticator_1_png'>
-<img src='http://seek-for-android.googlecode.com/svn/wiki/img/GoogleOtpAuthenticator-1.png' height='200' />
+<a href='https://cloud.githubusercontent.com/assets/11645011/6893197/36011d64-d6cb-11e4-8d4f-2f82ae204fee.png'>
+<img src='https://cloud.githubusercontent.com/assets/11645011/6893197/36011d64-d6cb-11e4-8d4f-2f82ae204fee.png' height='200' />
 </a>
-<a href='http://code.google.com/p/seek-for-android/wiki/GoogleOtpAuthenticator_2_png'>
-<img src='http://seek-for-android.googlecode.com/svn/wiki/img/GoogleOtpAuthenticator-2.png' height='200' />
+<a href='https://cloud.githubusercontent.com/assets/11645011/6893199/372192c8-d6cb-11e4-9754-a455cc6094c8.png'>
+<img src='https://cloud.githubusercontent.com/assets/11645011/6893199/372192c8-d6cb-11e4-9754-a455cc6094c8.png' height='200' />
 </a>
-<a href='http://code.google.com/p/seek-for-android/wiki/GoogleOtpAuthenticator_3_png'>
-<img src='http://seek-for-android.googlecode.com/svn/wiki/img/GoogleOtpAuthenticator-3.png' height='200' />
+<a href='https://cloud.githubusercontent.com/assets/11645011/6893200/383dbef2-d6cb-11e4-9b47-12079a71864f.png'>
+<img src='https://cloud.githubusercontent.com/assets/11645011/6893200/383dbef2-d6cb-11e4-9b47-12079a71864f.png' height='200' />
 </a>
-<a href='http://code.google.com/p/seek-for-android/wiki/GoogleOtpAuthenticator_4_png'>
-<img src='http://seek-for-android.googlecode.com/svn/wiki/img/GoogleOtpAuthenticator-4.png' height='200' />
+<a href='https://cloud.githubusercontent.com/assets/11645011/6893201/3a7a087e-d6cb-11e4-8802-7d45708d7a9f.png'>
+<img src='https://cloud.githubusercontent.com/assets/11645011/6893201/3a7a087e-d6cb-11e4-8802-7d45708d7a9f.png' height='200' />
 </a>
 
 <b>The Android application is for demonstration and test purposes only. Do not use in production environments!</b>
