@@ -27,24 +27,11 @@ An OATH calculation in software is possible but discouraged as the seed could ge
 </li><li>Scan the QR code with Google OTP Authenticator<br />
 </li><li>Enter the generated OTP.<br />
 </li><li>After successful confirmation the Google OTP Authenticator is now ready to use for 2-step verification with your Google account.<br />
-
-<a href='http://code.google.com/p/seek-for-android/wiki/GoogleTwoStepConfirmation_0_png'>
-<img src='http://seek-for-android.googlecode.com/svn/wiki/img/GoogleTwoStepConfirmation-0.png' height='100' />
-</a>
-<br />
-<a href='http://code.google.com/p/seek-for-android/wiki/GoogleTwoStepConfirmation_1_png'>
-<img src='http://seek-for-android.googlecode.com/svn/wiki/img/GoogleTwoStepConfirmation-1.png' height='100' />
-</a>
-<br />
-<a href='http://code.google.com/p/seek-for-android/wiki/GoogleTwoStepConfirmation_2_png'>
-<img src='http://seek-for-android.googlecode.com/svn/wiki/img/GoogleTwoStepConfirmation-2.png' height='100' />
-</a>
-<br />
-<a href='http://code.google.com/p/seek-for-android/wiki/GoogleTwoStepConfirmation_3_png'>
-<img src='http://seek-for-android.googlecode.com/svn/wiki/img/GoogleTwoStepConfirmation-3.png' height='100' />
-</a>
 </li></ul>
-
+![googletwostepconfirmation-0](https://cloud.githubusercontent.com/assets/11645011/6892995/753a1870-d6c9-11e4-9437-acc931f092d1.png)
+![googletwostepconfirmation-1](https://cloud.githubusercontent.com/assets/11645011/6892996/76292d20-d6c9-11e4-8d93-832a14341937.png)
+![googletwostepconfirmation-2](https://cloud.githubusercontent.com/assets/11645011/6892997/77abe002-d6c9-11e4-90b4-53816e3be5ac.png)
+![googletwostepconfirmation-3](https://cloud.githubusercontent.com/assets/11645011/6892998/79dc28be-d6c9-11e4-994a-4a8ef7524034.png)
 
 <h1>Android Application</h1>
 
