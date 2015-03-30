@@ -49,7 +49,7 @@ Within the browser, open the URI<br>
 <pre><code>file:///sdcard/index.html<br>
 </code></pre>
 <a href='https://cloud.githubusercontent.com/assets/11645011/6865865/ab66efd0-d472-11e4-8ea8-6800557badd4.png'>
-<img src='https://cloud.githubusercontent.com/assets/11645011/6865865/ab66efd0-d472-11e4-8ea8-6800557badd4.png' height='300' />
+<img src='https://cloud.githubusercontent.com/assets/11645011/6865865/ab66efd0-d472-11e4-8ea8-6800557badd4.png' height='400' />
 </a>
 <br>
 The PerformanceTester application will be converted to HTML in a next step.<br /><br />
