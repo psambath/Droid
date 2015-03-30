@@ -24,7 +24,7 @@ The Android emulator is used as reference development environment!
 The following devices summarizes all commercially available devices that have SmartCard API integrated
 
 | **Device** | | **OS build** | **BB build** | **SCAPI** | | **ASSD** | **UICC** | **eSE** | | **Notes** |
-|:-----------|:|:-------------|:-------------|:----------|:|:---------|:---------|:--------|:|:----------|
+|:-----------| |:-------------|:-------------|:----------| |:---------|:---------|:--------| |:----------|
 | Samsung GT-I9100P |  | <font size='1'>GINGERBREAD.XXLA3 <table><thead><th> <font size='1'>I9100PXXKI3 </th><th> 2.2.2 </th><th>  </th><th> - </th><th> + </th><th> - </th><th>  </th><th> <a href='DeviceDetails.md'>details</a> </th></thead><tbody>
 <tr><td> Samsung GT-I9300 </td><td>  </td><td> <font size='1'>IMM76D.I9300XXALEF </td><td><font size='1'>I9300XXLEF </td><td> 2.3.2 </td><td>  </td><td> - </td><td> + </td><td> - </td><td>  </td><td> <a href='DeviceDetails.md'>details</a> </td></tr>
 <tr><td> Sony Xperia S (LT26i) </td><td>  </td><td> <font size='1'>6.0.A.3.75 </td><td> <font size='1'>M8660-AAABQOLYM-314005T </td><td> 2.3.4 </td><td>  </td><td> - </td><td> + </td><td> - </td><td>  </td><td> <a href='DeviceDetails.md'>details</a> </td></tr>
