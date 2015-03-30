@@ -2,7 +2,7 @@ This introduction shows how the SmartCard API with ASSD support can be integrate
 
 ## The ASSD kernel driver can be built by building a custom kernel: ##
 
-### Getting the Kernel sources: ###
+<h4> Getting the Kernel sources: </h4>
 
 follow the desciption on http://source.android.com/source/building-kernels.html
 
