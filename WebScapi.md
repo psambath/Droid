@@ -6,7 +6,7 @@ The WebScapi (SmartCard API for the Web) project is still a very <b>early protot
 
 <h1>Building</h1>
 <ul><li>add the SmartCard API patch file(s) as normal to build the system<br>
-</li><li>download the <a src='http://seek-for-android.googlecode.com/files/webscapi-1_0_0.tgz' </a> and extract the content<br>
+</li><li>download the <a src='[webscapi-1_0_0.tgz](http://seek-for-android.googlecode.com/files/webscapi-1_0_0.tgz)' </a> and extract the content<br>
 </li><li>apply the WebScapi patch with<br>
 <pre><code>$ cd &lt;ANDROID_ROOT_DIR&gt;<br>
 $ patch -p1 &lt; &lt;path_to_my_patches&gt;/webscapi.patch<br>
