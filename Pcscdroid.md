@@ -28,7 +28,7 @@ The application was tested and works on Samsung Galaxy S3, Samsung Galaxy S2, Sa
 
 # Installation #
 
-To install Pcscdroid on your device simply download the Package that includes the APK here: **[Pcscdroid](http://code.google.com/p/seek-for-android/downloads/detail?name=Pcscdroid-01.tar.gz)**
+To install Pcscdroid on your device simply download the Package that includes the APK here: **[Pcscdroid](https://github.com/sunyer/Seek-for-Android/tree/master/applications/pcscdroid)**
 
 Next install it with
 
