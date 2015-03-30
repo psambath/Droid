@@ -19,8 +19,9 @@ Run the SecureFileManager application on your Android smartphone.
 With inserted Mobile Security Card the encryption functions are available.<br />
 
 
-![securefilemanager_encrypt_menu](https://cloud.githubusercontent.com/assets/11645011/6892549/4271d710-d6c5-11e4-9c48-b12f0523a114.png)
-![securefilemanager_encrypt_file](https://cloud.githubusercontent.com/assets/11645011/6892553/44648f0e-d6c5-11e4-92bd-1b69d49863f2.png)
+<img style="-webkit-user-select: none;width: 267px;" src="https://cloud.githubusercontent.com/assets/11645011/6892549/4271d710-d6c5-11e4-9c48-b12f0523a114.png">
+<img style="-webkit-user-select: none;width: 267px;" src="https://cloud.githubusercontent.com/assets/11645011/6892553/44648f0e-d6c5-11e4-92bd-1b69d49863f2.png">
+
 # Java Card Applet #
 
 **The Java Card applet is for demonstration and test purposes only. Do not use in production environments!**<br />
