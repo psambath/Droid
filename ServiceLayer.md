@@ -27,14 +27,14 @@ You should now be ready to build android with the Service Layer included. The co
 
 # Using the Service Layer #
 
-## Installing the shared library on the Android SDK ##
+### Installing the shared library on the Android SDK ###
 The same shared library approach as in Transport Layer is adopted to work with the Service Layer.
 
 In order to install the shared library, follow the steps on [Setting up the Environment](https://code.google.com/p/seek-for-android/wiki/UsingSmartCardAPI#Setting_up_the_Environment), but select _Open Mobile API (with Service Layer)_ instead of _Open Mobile API_.
 
 Once it is installed, just set your project's target platform to point to the new shared library (notice that it also includes the transport layer).
 
-## Testing with Servicie Layer Tester ##
+### Testing with Servicie Layer Tester ###
 You can find a test application on [the seek SVN repository](https://code.google.com/p/seek-for-android/source/checkout), called ServiceLayerTester. It is under the "samples" folder. Notice that, in order to be able to compile it, you will need the shared library installed; and, in order for tests to run propperly, you will need the test applets installed on your secure element.
 
 These are the test cases included in ServiceLayerTester, together with the required JavaCard applets:
