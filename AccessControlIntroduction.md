@@ -10,7 +10,7 @@ The implementation relies on an extension of the handset integration in combinat
 The specification can be found at Global Platform:<br>
 <a href='http://www.globalplatform.org/specificationsdevice.asp'>Secure Element Access Control</a>
 <br />
-
+<img src="https://cloud.githubusercontent.com/assets/11645011/6866185/192fbe86-d476-11e4-9a60-0544e848cd8e.png" height="300">
 ![ara_overview](https://cloud.githubusercontent.com/assets/11645011/6866185/192fbe86-d476-11e4-9a60-0544e848cd8e.png)
 
 ## Components ##
