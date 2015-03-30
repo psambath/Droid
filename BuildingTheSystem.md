@@ -144,7 +144,7 @@ Execute
 ```
 $ make docs
 ```
-to find the offline documentation under `out/target/common/docs/offline-sdk/reference` or use the [ApiDoc](http://seek-for-android.googlecode.com/svn/trunk/doc/index.html) instead.
+to find the offline documentation under `out/target/common/docs/offline-sdk/reference` or use the [ApiDoc](https://github.com/sunyer/Seek-for-Android/tree/master/doc/org/simalliance/openmobileapi) instead.
 <br /><br />
 
 ## Continue ##
