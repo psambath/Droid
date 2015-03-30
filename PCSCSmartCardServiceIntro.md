@@ -13,7 +13,7 @@ $ cd <ANDROID_SRC_ROOT_DIR>
 $ patch -p1 < <path_to_my_patches>/pcsc_systemservice_v098.patch
 ```
 
-Apart from adding the PC/SC support, building the Android platform is according to the description in [Building the System](http://code.google.com/p/seek-for-android/wiki/BuildingTheSystem)
+Apart from adding the PC/SC support, building the Android platform is according to the description in [Building the System](https://github.com/sunyer/seek-for-android/wiki/BuildingTheSystem)
 
 # Details #
 
