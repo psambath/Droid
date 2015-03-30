@@ -16,9 +16,7 @@ An OATH calculation in software is possible but discouraged as the seed could ge
 <b>Note</b>: To scan the OR Code the Barcode Reader Application from zxing is necessary. You can either install it via Google Play or from their project site <a href='http://code.google.com/p/zxing/'>http://code.google.com/p/zxing/</a>.</li></ul>
 
 
-<a href='http://code.google.com/p/seek-for-android/wiki/GoogleOtpAuthenticator_1_png'>
-<img src='http://seek-for-android.googlecode.com/svn/wiki/img/GoogleOtpAuthenticator-1.png' height='300' />
-</a>
+![googleotpauthenticator-1](https://cloud.githubusercontent.com/assets/11645011/6892994/7275051e-d6c9-11e4-8f56-b3fe994d145d.png)
 
 
 <h2>Activate 2-step verification</h2>
