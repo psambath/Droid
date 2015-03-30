@@ -23,11 +23,11 @@ The Android emulator is used as reference development environment!
 ### Commercial devices ###
 The following devices summarizes all commercially available devices that have SmartCard API integrated
 
-| **Device** | | **OS build** | **BB build** | **SCAPI** | | **ASSD** | **UICC** | **eSE** | | **Notes** |
-|:-----------| |:-------------|:-------------|:----------| |:---------|:---------|:--------| |:----------|
-| Samsung GT-I9100P |  | <font size='1'>GINGERBREAD.XXLA3 <table><thead><th> <font size='1'>I9100PXXKI3 </th><th> 2.2.2 </th><th>  </th><th> - </th><th> + </th><th> - </th><th>  </th><th> <a href='DeviceDetails.md'>details</a> </th></thead><tbody>
-<tr><td> Samsung GT-I9300 </td><td>  </td><td> <font size='1'>IMM76D.I9300XXALEF </td><td><font size='1'>I9300XXLEF </td><td> 2.3.2 </td><td>  </td><td> - </td><td> + </td><td> - </td><td>  </td><td> <a href='DeviceDetails.md'>details</a> </td></tr>
-<tr><td> Sony Xperia S (LT26i) </td><td>  </td><td> <font size='1'>6.0.A.3.75 </td><td> <font size='1'>M8660-AAABQOLYM-314005T </td><td> 2.3.4 </td><td>  </td><td> - </td><td> + </td><td> - </td><td>  </td><td> <a href='DeviceDetails.md'>details</a> </td></tr>
+<table>
+<thead><th> <b>Device</b> </th><th> </th><th> <b>OS build</b> </th><th> <b>BB build</b> </th><th> <b> SCAPI </b> </th><th> </th><th> <b>UICC</b> </th><th> <b>UICC</b> </th><th> <b>eSE</b> </th> <th>  </th>  <th> <b>Notes</b> </th></thead><tbody>
+<tr><td> Samsung GT-I9100P </td><td>  </td><td> <font size='1'>GINGERBREAD.XXLA3 </td><td><font size='1'>I9100PXXKI3 </td><td> 2.2.2 </td><td>  </td><td> - </td><td> + </td><td> - </td><td>  </td><td> <a href='https://github.com/sunyer/Seek-for-Android/wiki/DeviceDetails'>details</a> </td></tr>
+<tr><td> Samsung GT-I9300 </td><td>  </td><td> <font size='1'>IMM76D.I9300XXALEF </td><td><font size='1'>I9300XXLEF </td><td> 2.3.2 </td><td>  </td><td> - </td><td> + </td><td> - </td><td>  </td><td> <a href='https://github.com/sunyer/Seek-for-Android/wiki/DeviceDetails'>details</a> </td></tr>
+<tr><td> Sony Xperia S (LT26i) </td><td>  </td><td> <font size='1'>6.0.A.3.75 </td><td> <font size='1'>M8660-AAABQOLYM-314005T </td><td> 2.3.4 </td><td>  </td><td> - </td><td> + </td><td> - </td><td>  </td><td> <a href='https://github.com/sunyer/Seek-for-Android/wiki/DeviceDetails'>details</a> </td></tr>
 <tr><td> Sony Xperia P (LT22i) </td><td>  </td><td>  </td><td>  </td><td> 2.3.4 </td><td>  </td><td> - </td><td> + </td><td> - </td><td>  </td><td> reported by Sony </td></tr>
 <tr><td> Sony Xperia U (ST25i) </td><td>  </td><td>  </td><td>  </td><td> 2.3.4 </td><td>  </td><td> - </td><td> + </td><td> - </td><td>  </td><td> reported by Sony </td></tr>
 <tr><td> Sony Xperia Sola (MT27i) </td><td>  </td><td>  </td><td>  </td><td> 2.3.4 </td><td>  </td><td> - </td><td> + </td><td> - </td><td>  </td><td> reported by Sony </td></tr>
