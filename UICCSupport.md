@@ -58,7 +58,6 @@ Refer to [RIL\_Extensions.tgz](http://code.google.com/p/seek-for-android/downloa
 # Error handling #
 Multiple error conditions can arise where the system needs to be able to handle them. For this case the SmartCard API defines in addition to the proposed changes a `getLastError()` function to determine the error condition.
 | **getLastError** | **definition** |
-|:-----------------|:---------------|
 | 0 | no error |
 | 1 | general error (communication error, no further diagnosis) |
 | 2 | no resources (no logical channel available on SE)  |
@@ -68,7 +67,6 @@ Multiple error conditions can arise where the system needs to be able to handle 
 
 Mapping to the corresponding AT commands:
 | **getLastError** | **CSIM** | **CCHO** | **CGLA** | **CCHC** | **interpretation** |
-|:-----------------|:---------|:---------|:---------|:---------|:-------------------|
 | 0 | + | + | + | + | no error occurred while processing the command |
 | 1 | + | + | + | + | an undefined error occurred, e.g. communication error |
 | 2 |   | + |   |   | card does not support logical channels or no logical channel available |
