@@ -29,8 +29,9 @@ An OATH calculation in software is possible but discouraged as the seed could ge
 </li><li>After successful confirmation the Google OTP Authenticator is now ready to use for 2-step verification with your Google account.<br />
 </li></ul>
 
-<img src="https://cloud.githubusercontent.com/assets/11645011/6892995/753a1870-d6c9-11e4-9437-acc931f092d1.png" height="250">
-<img src="(https://cloud.githubusercontent.com/assets/11645011/6892996/76292d20-d6c9-11e4-8d93-832a14341937.png"  height="250">
+<img src="https://cloud.githubusercontent.com/assets/11645011/6892995/753a1870-d6c9-11e4-9437-acc931f092d1.png" height="200">
+<img src="https://cloud.githubusercontent.com/assets/11645011/6892996/76292d20-d6c9-11e4-8d93-832a14341937.png"  height="200">
+
 <img src="https://cloud.githubusercontent.com/assets/11645011/6892997/77abe002-d6c9-11e4-90b4-53816e3be5ac.png"  height="300">
 <img src="https://cloud.githubusercontent.com/assets/11645011/6892998/79dc28be-d6c9-11e4-994a-4a8ef7524034.png"  height="300">
 
