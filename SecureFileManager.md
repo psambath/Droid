@@ -33,7 +33,7 @@ You can even compile and convert the [fileManager.java](http://code.google.com/p
 With the help of the Java Card Applet a secure key is being established for a specific file-ID and a given password.
 This triple is saved on the secure element of the Mobile Security Card.<br /><br />
 
-![http://seek-for-android.googlecode.com/svn/wiki/img/secureFileManager_triple.png](http://seek-for-android.googlecode.com/svn/wiki/img/secureFileManager_triple.png)
+![securefilemanager_triple](https://cloud.githubusercontent.com/assets/11645011/6892594/a95f4bd8-d6c5-11e4-9f1c-e53db54f7f48.png)
 
 Only if you are authenticated you have access to all methods. The default Pin is 0x31 0x32 0x33 0x34.<br />
 After 3 times wrong pin entry the applet is blocked. A correct Pin resets the counter.
