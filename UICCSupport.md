@@ -69,22 +69,14 @@ Multiple error conditions can arise where the system needs to be able to handle 
 
 Mapping to the corresponding AT commands:
 
-| **getLastError** | **CSIM** | **CCHO** | **CGLA** | **CCHC** | **interpretation** |
-| 0 | + | + | + | + | no error occurred while processing the command |
-| 1 | + | + | + | + | an undefined error occurred, e.g. communication error |
+| **getLastError** | CSIM | CCHO | CGLA | CCHC | interpretation |
+|:--------|:-----|:-----|:--------|:------|:------|
+| 0 | + |   | + | + | no error occurred while processing the command |
+| 1 | + |   | + | + | an undefined error occurred, e.g. communication error |
 | 2 |   | + |   |   | card does not support logical channels or no logical channel available |
 | 3 |   | + |   |   | applet selection failed with 6A 82 (file/application not found) |
 | 4 |   |   |   | + | an error occurred while closing the logical channel |
-| 5 |   |   | + | + | session ID mismatch or tampered |
-
-| **getLastError** | CSIM | CCHO | CGLA | CCHC | interpretation |
-|:--------|:-----|:-----|:--------|:------|:------|
-| 0 | + | - | + | + | no error occurred while processing the command |
-| 1 | + | - | + | + | an undefined error occurred, e.g. communication error |
-| 2 | - | + | - | - | card does not support logical channels or no logical channel available |
-| 3 | - | + | - | - | applet selection failed with 6A 82 (file/application not found) |
-| 4 | n/a | - | 3.0.0 (2) | reference for eSE development |
-| 5 | n/a | - | 3.0.0 (2) | reference for eSE development |
+| 5 |   |   |   | + | session ID mismatch or tampered |
 
 
 Transmit functions like +CSIM or +CGLA always return SW1SW2 if available or empty data when no SW1SW2 was received and indicate **1** in `getLastError`
