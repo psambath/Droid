@@ -6,9 +6,7 @@ An OATH calculation in software is possible but discouraged as the seed could ge
 <h1>Walk through</h1>
 <h2>Install Applet and APK</h2>
 
-<table>
-<tr>
-<td width='50%' valign='top'>
+
 <ul><li>Download the installation files from the <a href='http://seek-for-android.googlecode.com/files/GoogleOTPAuthenticator.tar.gz'>Download page</a>
 </li></ul><ul><li>Install the <code>oath.cap</code> file on the Secure Element with JLoad or other Java Card compliant Global Platform loader tools.<br />
 <b>Note</b>: JLoad is included in the <a href='https://www.cardsolutions-shop.com/shop/gi-de/'>Mobile Security Developer's Kit</a>
@@ -17,27 +15,21 @@ An OATH calculation in software is possible but discouraged as the seed could ge
 </li><li>Run the application on the Android phone, open the menu and personalize the applet<br>
 <b>Note</b>: To scan the OR Code the Barcode Reader Application from zxing is necessary. You can either install it via Google Play or from their project site <a href='http://code.google.com/p/zxing/'>http://code.google.com/p/zxing/</a>.</li></ul>
 
-</td>
-<td width='60%'>
+
 <a href='http://code.google.com/p/seek-for-android/wiki/GoogleOtpAuthenticator_1_png'>
 <img src='http://seek-for-android.googlecode.com/svn/wiki/img/GoogleOtpAuthenticator-1.png' height='300' />
 </a>
-</td>
-</tr>
-</table>
+
 
 <h2>Activate 2-step verification</h2>
-<table>
-<tr>
-<td width='50%' valign='top'>
+
 <ul><li>Log in into your Google account and navigate to the Security Options of your account settings.<br />
 </li><li>First it might be necessary to register your subscriber number of your mobile phone via SMS.<br />
 </li><li>Now you can activate a mobile application to generate access codes. Click on Android to start the activation.<br />
 </li><li>Scan the QR code with Google OTP Authenticator<br />
 </li><li>Enter the generated OTP.<br />
 </li><li>After successful confirmation the Google OTP Authenticator is now ready to use for 2-step verification with your Google account.<br />
-</td>
-<td width='60%'>
+
 <a href='http://code.google.com/p/seek-for-android/wiki/GoogleTwoStepConfirmation_0_png'>
 <img src='http://seek-for-android.googlecode.com/svn/wiki/img/GoogleTwoStepConfirmation-0.png' height='100' />
 </a>
@@ -53,9 +45,7 @@ An OATH calculation in software is possible but discouraged as the seed could ge
 <a href='http://code.google.com/p/seek-for-android/wiki/GoogleTwoStepConfirmation_3_png'>
 <img src='http://seek-for-android.googlecode.com/svn/wiki/img/GoogleTwoStepConfirmation-3.png' height='100' />
 </a>
-</td>
-</tr>
-</table></li></ul>
+</li></ul>
 
 
 <h1>Android Application</h1>
