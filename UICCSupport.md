@@ -58,10 +58,11 @@ Refer to [RIL\_Extensions.tgz](http://code.google.com/p/seek-for-android/downloa
 # Error handling #
 Multiple error conditions can arise where the system needs to be able to handle them. For this case the SmartCard API defines in addition to the proposed changes a `getLastError()` function to determine the error condition.
 
-| **getLastError** | **definition** |
-| 0 | no error |
+| **getLastError** | **definition**| 
+|:--------|:-----|
+| 0| no error |
 | 1 | general error (communication error, no further diagnosis) |
-| 2 | no resources (no logical channel available on SE)  |
+| 2 | no resources (no logical channel available on SE) | 
 | 3 | not found (applet selection failed) |
 | 4 | close failed (MANAGE CHANNEL CLOSE error) |
 | 5 | sessionid mismatch (invalid session id provided) |
