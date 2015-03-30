@@ -7,26 +7,26 @@ This introduction shows how the SmartCard API with ASSD support can be integrate
 follow the desciption on http://source.android.com/source/building-kernels.html
 
 
-### Download the [20121005-assd-kernel.tgz](http://seek-for-android.googlecode.com/files/20121005-assd-kernel.tgz) patch and extract the content: ###
+<h4> Download the [20121005-assd-kernel.tgz](http://seek-for-android.googlecode.com/files/20121005-assd-kernel.tgz) patch and extract the content: </h4>
 
   * assd.patch - patches the Kernel sources for ASSD support
 
 
-### Apply the patch: ###
+<h4> Apply the patch: </h4>
 
 ```
 <KERNEL_DIR>$ patch -p1 < <path_to_my_patches>/assd.patch
 ```
 
 
-### Building the kernel: ###
+<h4> Building the kernel: </h4>
 
 follow the desciption on http://source.android.com/source/building-kernels.html
 
 
 ## The Android system can be built with ASSD support by using this custom built kernel: ##
 
-### Download the [smartcard-api-2\_4\_0.tgz](http://seek-for-android.googlecode.com/files/smartcard-api-2_4_0.tgz) patch and extract the content: ###
+<h4> Download the [smartcard-api-2\_4\_0.tgz](http://seek-for-android.googlecode.com/files/smartcard-api-2_4_0.tgz) patch and extract the content: </h4>
 
   * smartcard-api.patch - patches the Java sources for SmartCard API support
   * uicc.patch - patches the Android Telephony framework with the required UICC methods for the SmartCard API UiccTerminal support
@@ -34,7 +34,7 @@ follow the desciption on http://source.android.com/source/building-kernels.html
   * cts.patch - adds the compatibility testsuite for the SmartCard API.
 
 
-### Apply the patches: ###
+<h4> Apply the patches: </h4>
 
 ```
 $ cd <ANDROID_ROOT_DIR> 
@@ -45,14 +45,14 @@ $ patch -p1 < <path_to_my_patches>/smartcard-api-2_4_0/cts.patch
 
 (Note: `emulator.patch` is not needed for the build as the current emulator patch does not support ASSD)
 
-### Apply the patches and update the API: ###
+</h4> Apply the patches and update the API: </h4>
 
 ```
 $ make update-api
 ```
 
 
-### Building the system: ###
+<h4> Building the system: </h4>
 
 Compile the sources for the target device (use passion, sapphire or dream depending on the actual development phone) and specify the location of the custom kernel (built in the previous step).
 
