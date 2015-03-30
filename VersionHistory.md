@@ -99,7 +99,7 @@
   * Fully compliant to the latest [SIMalliance ](http://simalliance.org/)Open Mobile API Specification (V1.01)
   * New SE Access Control Enforcer can restrict the access to Secure Elements by predefined policies. See the SE Access Control description.
   * CTS extension for SmartCard API. (Some corrections were made to enable CTS also for the shared library based SmartCard API)
-  * Support of [ASSD](http://www.sdcard.org/developers/tech/ASSD/) to access SD memory cards with an embedded security system  (Note: The also provided ASSD kernel patch for creating the ASSD kernel driver has to be used for enabling the ASSD support)
+  * Support of [ASSD](https://www.sdcard.org/developers/overview/ASSD/) to access SD memory cards with an embedded security system  (Note: The also provided ASSD kernel patch for creating the ASSD kernel driver has to be used for enabling the ASSD support)
   * The ASSD solution replaces the interim proprietary solution "MSC" for accessing a Secure SD cards.
   * SmartCard API is also provided as a shared library. A new alternative (but experimental) solution.
 
