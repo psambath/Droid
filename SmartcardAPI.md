@@ -35,6 +35,6 @@ Download and apply the patch files according to [Building building the system](B
 Compile the Android platform, build and flash a [device](Devices) or start a new [emulator](EmulatorExtension) instance with SmartCard API support.<br />
 Start working on your own project with a quick start from [Using the SmartCard API](UsingSmartCardAPI).<br />
 [Eclipse](http://developer.android.com/sdk/installing.html) is recommended to develop smart card applications but not required for Android development.<br />
-Import the [samples](http://code.google.com/p/seek-for-android/source/browse/#svn%2Ftrunk%2Fsamples) and run them on the phone or in the emulator. They provide a good starting point.<br />
+Import the [samples](https://github.com/sunyer/Seek-for-Android/tree/master/samples) and run them on the phone or in the emulator. They provide a good starting point.<br />
 See SmartCard API [JavaDoc](http://seek-for-android.googlecode.com/svn/trunk/doc/index.html) for further documentation.
 <br />
