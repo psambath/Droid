@@ -36,5 +36,5 @@ Compile the Android platform, build and flash a [device](Devices) or start a new
 Start working on your own project with a quick start from [Using the SmartCard API](UsingSmartCardAPI).<br />
 [Eclipse](http://developer.android.com/sdk/installing.html) is recommended to develop smart card applications but not required for Android development.<br />
 Import the [samples](https://github.com/sunyer/Seek-for-Android/tree/master/samples) and run them on the phone or in the emulator. They provide a good starting point.<br />
-See SmartCard API [JavaDoc](http://seek-for-android.googlecode.com/svn/trunk/doc/index.html) for further documentation.
+See SmartCard API [JavaDoc](https://github.com/sunyer/Seek-for-Android/tree/master/doc/org/simalliance/openmobileapi) for further documentation.
 <br />
