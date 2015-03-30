@@ -1,4 +1,4 @@
-![http://seek-for-android.googlecode.com/svn/wiki/img/btpcsc_logo.png](http://seek-for-android.googlecode.com/svn/wiki/img/btpcsc_logo.png)
+![btpcsc_logo](https://cloud.githubusercontent.com/assets/11645011/6892496/ed817710-d6c4-11e4-9559-6cc9a273e85a.png)
 
 # Introduction #
 
@@ -15,7 +15,7 @@ So far, BTPCSC has been successfully tested with testpcsc, the HelloSmartcard ap
 
 With a normal PC/SC device, the PC/SC daemon pcscd calls an IFD handler which does all communication with the device. BTPCSC acts as a custom IFD handler (libbtpcsc.so) which directs all communication through a Bluetooth connection to a BTPCSC server on an Android device, which in turn hands it to Android's PC/SC daemon.
 
-<a href='http://seek-for-android.googlecode.com/svn/wiki/img/btpcsc_concept.png'><img src='http://seek-for-android.googlecode.com/svn/wiki/img/btpcsc_concept.png' width='600' height='729' /></a>
+![btpcsc_concept](https://cloud.githubusercontent.com/assets/11645011/6892497/ee33ff52-d6c4-11e4-9d4c-5c97fe95efae.png)
 
 
 # Prerequisites #
