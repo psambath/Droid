@@ -53,7 +53,7 @@ Apply the patch with
 ```
 patch -p1 -i eap-sim-aka_0.4.1.patch
 ```
-in the root directory of your Android Sources. Build the system how it is shown in [BuildingTheSystem](http://code.google.com/p/seek-for-android/wiki/BuildingTheSystem).
+in the root directory of your Android Sources. Build the system how it is shown in [BuildingTheSystem](https://github.com/sunyer/seek-for-android/wiki/BuildingTheSystem).
 
 # Additional Components #
 
