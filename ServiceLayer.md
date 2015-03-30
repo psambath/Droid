@@ -24,7 +24,7 @@ $ patch -p1 < <path_to_my_patches>/servicelayer.patch
 You should now be ready to build android with the Service Layer included. The commands to compile are the same as in [BuildingTheSystem](BuildingTheSystem).
 
 ![servicelayertestersnapshot](https://cloud.githubusercontent.com/assets/11645011/6866458/c3c251cc-d478-11e4-9702-5e584c77f690.png | height = 100px)
-<img  src="https://cloud.githubusercontent.com/assets/11645011/6866458/c3c251cc-d478-11e4-9702-5e584c77f690.png" width="417" height="739">
+<img  src="https://cloud.githubusercontent.com/assets/11645011/6866458/c3c251cc-d478-11e4-9702-5e584c77f690.png" width="282" height="500">
 
 # Using the Service Layer #
 
