@@ -56,7 +56,7 @@ Run the _OpenMobileApiSample_ application, _PerformanceTester_ or similar to che
 
 
 # Details #
-The SVN [PluginTerminal](http://code.google.com/p/seek-for-android/source/browse/#svn%2Ftrunk%2Fsamples%2FPluginTerminal) sample can be used to study the functionality of the Addon Terminal implementation.
+The SVN [PluginTerminal](https://github.com/sunyer/Seek-for-Android/tree/master/samples/PluginTerminal) sample can be used to study the functionality of the Addon Terminal implementation.
 The PluginTerminal sample is a dummy terminal that uses a mock card.
 
 ## Access Control ##
@@ -69,7 +69,7 @@ This behaviour must be implemented in method `internalOpenLogicalChannel(byte[] 
 Also the Addon Terminal should check the caller application to assert that the caller is entitled to use the Addon Terminal (see sample code).
 
 ## Log of sample Addon Terminal _DummyTerminal_ ##
-The logcat output of the sample Addon Terminal _DummyTerminal_ after running the [OpenMobileApiSample](http://code.google.com/p/seek-for-android/source/browse/#svn%2Ftrunk%2Fsamples%2FOpenMobileApiSample) application will show
+The logcat output of the sample Addon Terminal _DummyTerminal_ after running the [OpenMobileApiSample](https://github.com/sunyer/Seek-for-Android/tree/master/samples/OpenMobileApiSample) application will show
 ```
 V/DummyTerminal(  819): internalConnect
 V/DummyTerminal(  819): internalOpenLogicalChannel: AID = D2 76 00 01 18 AA FF FF 49 10 48 89 01
