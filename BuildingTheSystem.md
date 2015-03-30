@@ -24,10 +24,10 @@ Download the [smartcard-api-3\_2\_1.tgz](https://drive.google.com/file/d/0B63jMJ
   * `emulator.patch` - patch the qemu module to support a UICC connected through the PC/SC host interface and ASSD support - for emulator builds only
 
 #### BIP support - _currently not maintained_ ####
-  * Patch the sources according to [BIP Extensions](http://code.google.com/p/seek-for-android/wiki/BIP_Extensions) - only for BIP support
+  * Patch the sources according to [BIP Extensions](https://github.com/sunyer/seek-for-android/wiki/BIP_Extensions) - only for BIP support
 
 #### PC/SC support - _currently not maintained_ ####
-  * Patch the sources according to [PCSC Support](http://code.google.com/p/seek-for-android/wiki/PCSCSmartCardServiceIntro) - only for (native) Android applications requesting the PC/SC interface.<br />
+  * Patch the sources according to [PCSC Support](https://github.com/sunyer/seek-for-android/wiki/PCSCSmartCardServiceIntro) - only for (native) Android applications requesting the PC/SC interface.<br />
 
 #### Apply the patches ####
 ```
