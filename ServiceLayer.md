@@ -30,7 +30,7 @@ You should now be ready to build android with the Service Layer included. The co
 ### Installing the shared library on the Android SDK ###
 The same shared library approach as in Transport Layer is adopted to work with the Service Layer.
 
-In order to install the shared library, follow the steps on [Setting up the Environment](https://code.google.com/p/seek-for-android/wiki/UsingSmartCardAPI#Setting_up_the_Environment), but select _Open Mobile API (with Service Layer)_ instead of _Open Mobile API_.
+In order to install the shared library, follow the steps on [Setting up the Environment](https://github.com/seek-for-android/SmartcardService/wiki/UsingSmartCardAPI#Setting_up_the_Environment), but select _Open Mobile API (with Service Layer)_ instead of _Open Mobile API_.
 
 Once it is installed, just set your project's target platform to point to the new shared library (notice that it also includes the transport layer).
 
