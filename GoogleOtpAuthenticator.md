@@ -11,7 +11,7 @@ An OATH calculation in software is possible but discouraged as the seed could ge
 </li></ul><ul><li>Install the <code>oath.cap</code> file on the Secure Element with JLoad or other Java Card compliant Global Platform loader tools.<br />
 <b>Note</b>: JLoad is included in the <a href='https://www.cardsolutions-shop.com/shop/gi-de/'>Mobile Security Developer's Kit</a>
 </li><li>Install the <code>GoogleOtpAuthenticator.apk</code> on your Android device equipped with the Secure Element and <code>SmartCardApi</code> installed.<br />
-<b>Note</b>: Without <code>Smarcard API</code>, please check out how to   <a href='http://code.google.com/p/seek-for-android/wiki/BuildingTheSystem'>Building The System</a>
+<b>Note</b>: Without <code>Smarcard API</code>, please check out how to   <a href='https://github.com/seek-for-android/SmartcardService/wiki/BuildingTheSystem'>Building The System</a>
 </li><li>Run the application on the Android phone, open the menu and personalize the applet<br>
 <b>Note</b>: To scan the OR Code the Barcode Reader Application from zxing is necessary. You can either install it via Google Play or from their project site <a href='http://code.google.com/p/zxing/'>http://code.google.com/p/zxing/</a>.</li></ul>
 
