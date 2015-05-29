@@ -2,7 +2,7 @@
 
 
 ## Latest News ##
-  * **New version available:** Smartcard API 3.2.1 (based on Android 4.4 KitKat) is already available for download [here](https://docs.google.com/file/d/0B63jMJOYc2l3UXJFWVdaQUlyeFk/edit).
+  * **New version available:** Smartcard API 3.2.1 (based on Android 4.4 KitKat) is already available for download [here](https://drive.google.com/uc?export=download&id=0B63jMJOYc2l3UXJFWVdaQUlyeFk).
   * **Downloads section moved:** please notice that new files will be uploaded to Google Drive as Google is no longer supporting file hosting on Google Groups.
 
 ## Vision ##
