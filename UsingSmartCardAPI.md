@@ -28,12 +28,12 @@ The Eclipse development environment needs to be configured in order to use the o
 </li><li>19 - API level 18, Android 4.4<br>
 </li></li><li>When the application should be compiled for different API levels it's recommended to add all versions of the Open Mobile API to the addon manager<br></li></ul>
 
-![](https://cloud.githubusercontent.com/assets/11645011/6865978/d5a4ebe8-d473-11e4-9d8b-aad881ea2d24.png)
+![](http://seek-for-android.github.io/img/wiki/UsingSCAPI_Addon-Sites.png)
 
 <li><i>Reload</i> the packages selecting <i>Packages</i> -> <i>Reload</i><br />
 </li><li>Select <i>Open Mobile API</i> under <i>Android 4.4</i> and install the package add-on<br />
 </li><li>The Android SDK Manager installed the Open Mobile API addon package from SEEK to develop Secure Element aware applications.<br></li></ul> <br/>
-![usingscapi_sdk-manager](https://cloud.githubusercontent.com/assets/11645011/6891465/bdfe9c88-d6bb-11e4-9c0d-3225e4f91374.png)
+![usingscapi_sdk-manager](http://seek-for-android.github.io/img/wiki/UsingSCAPI_SDK-Manager.png)
 
 
 
