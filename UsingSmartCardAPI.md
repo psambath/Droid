@@ -19,7 +19,7 @@ The Eclipse development environment needs to be configured in order to use the o
 
 <ul><li>Start the <i>Android SDK Manager</i> by launching <code>android</code> on the command line<br />
 </li><li>Click on <i>Tools</i> -> <i>Manage Add-on Sites...</i><br />
-</li><li>Go to <i>User Defined Sites</i> and add the new repository <code>http://seek-for-android.googlecode.com/svn/trunk/repository/18/addon.xml</code> and close the dialog<br />
+</li><li>Go to <i>User Defined Sites</i> and add the new repository <code>http://seek-for-android.github.io/repository/18/addon.xml</code> and close the dialog<br />
 </li><li>The different entries in the list are required for the different API levels:<br>
 <ul><li>15 - API level 15, Android 4.0.3<br>
 </li><li>16 - <i>not available</i>
