@@ -1,16 +1,16 @@
 * **Introduction**
     * [SmartCard API](https://github.com/sunyer/seek-for-android/wiki/SmartcardAPI)
     * [Security Concept](https://github.com/sunyer/seek-for-android/wiki/SecurityConcept)
-    * [Device Support](https://github.com/sunyer/seek-for-android/wiki/%5BUNMAINTAINED%5D-Devices)
     * [Version History](https://github.com/sunyer/seek-for-android/wiki/VersionHistory)
+    * [Device Support](https://github.com/sunyer/seek-for-android/wiki/%5BUNMAINTAINED%5D-Devices)
 * **How To**
     * [Bulding the System](https://github.com/sunyer/seek-for-android/wiki/BuildingTheSystem)
     * [Emulator Extension](https://github.com/sunyer/seek-for-android/wiki/EmulatorExtension)
-    * [Browser based OMAPI](https://github.com/sunyer/seek-for-android/wiki/%5BUNMAINTAINED%5D-Web-SCAPI)
     * [Using SmartCard API](https://github.com/sunyer/seek-for-android/wiki/UsingSmartCardAPI)
-    * [Using CTS](https://github.com/sunyer/seek-for-android/wiki/UsingCTS)
     * [Create an Addon Terminal](https://github.com/sunyer/seek-for-android/wiki/AddonTerminal)
     * [SmartCard API Version](https://github.com/sunyer/seek-for-android/wiki/RetrievingVersionInfo)
+    * [Browser based OMAPI](https://github.com/sunyer/seek-for-android/wiki/%5BUNMAINTAINED%5D-Web-SCAPI)
+    * [Using CTS](https://github.com/sunyer/seek-for-android/wiki/%5BUNMAINTAINED%5D-Using-CTS)
 * **Access Control**
     * [Introduction](https://github.com/sunyer/seek-for-android/wiki/AccessControlIntroduction)
 * **UICC Support**
@@ -40,6 +40,5 @@
 * [FAQS](https://github.com/sunyer/seek-for-android/wiki/Faq)
 * [Abbreviations](https://github.com/sunyer/seek-for-android/wiki/Abbreviations)
 * [Contributions](https://github.com/sunyer/seek-for-android/wiki/Contributions)
-
 
 
