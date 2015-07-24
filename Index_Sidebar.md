@@ -2,7 +2,7 @@
     * [SmartCard API](https://github.com/sunyer/seek-for-android/wiki/SmartcardAPI)
     * [Security Concept](https://github.com/sunyer/seek-for-android/wiki/SecurityConcept)
     * [Version History](https://github.com/sunyer/seek-for-android/wiki/VersionHistory)
-    * [Device Support](https://github.com/sunyer/seek-for-android/wiki/%5BUNMAINTAINED%5D-Devices)
+    * [[Unmaintained] Device Support](https://github.com/sunyer/seek-for-android/wiki/%5BUNMAINTAINED%5D-Devices)
 * **How To**
     * [Bulding the System](https://github.com/sunyer/seek-for-android/wiki/BuildingTheSystem)
     * [Emulator Extension](https://github.com/sunyer/seek-for-android/wiki/EmulatorExtension)
