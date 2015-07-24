@@ -47,5 +47,5 @@ Start working on your own project with a quick start from [Using the SmartCard A
 
 Import the [samples](https://github.com/seek-for-android/) and run them on the phone or in the emulator. They provide a good starting point.
 
-See SmartCard API [JavaDoc](http://seek-for-android.github.io/javadoc/latest) for further documentation.
+See SmartCard API [JavaDoc](http://seek-for-android.github.io/javadoc/) for further documentation.
 
