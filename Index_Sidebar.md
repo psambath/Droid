@@ -22,7 +22,6 @@
     * [How To Build](https://github.com/sunyer/seek-for-android/wiki/HowToBuild)
 * **MSC Support** 
     * [MSC Smartcard Service](https://github.com/sunyer/seek-for-android/wiki/MscSmartcardService)
-    * [MSC Plugin Terminal](https://github.com/sunyer/seek-for-android/wiki/MscPluginTerminal)
     * [Version History](https://github.com/sunyer/seek-for-android/wiki/MscVersionHistory)
 * **PC/SC Interface** 
     * [PC/SC Lite Discussion](https://github.com/sunyer/seek-for-android/wiki/PCSCLite)
