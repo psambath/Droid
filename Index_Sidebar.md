@@ -9,8 +9,8 @@
     * [Using SmartCard API](https://github.com/sunyer/seek-for-android/wiki/UsingSmartCardAPI)
     * [Create an Addon Terminal](https://github.com/sunyer/seek-for-android/wiki/AddonTerminal)
     * [SmartCard API Version](https://github.com/sunyer/seek-for-android/wiki/RetrievingVersionInfo)
-    * [Browser based OMAPI](https://github.com/sunyer/seek-for-android/wiki/%5BUNMAINTAINED%5D-Web-SCAPI)
-    * [Using CTS](https://github.com/sunyer/seek-for-android/wiki/%5BUNMAINTAINED%5D-Using-CTS)
+    * [[Unmaintained] Browser based OMAPI](https://github.com/sunyer/seek-for-android/wiki/%5BUNMAINTAINED%5D-Web-SCAPI)
+    * [[Unmaintained] Using CTS](https://github.com/sunyer/seek-for-android/wiki/%5BUNMAINTAINED%5D-Using-CTS)
 * **Access Control**
     * [Introduction](https://github.com/sunyer/seek-for-android/wiki/AccessControlIntroduction)
 * **UICC Support**
