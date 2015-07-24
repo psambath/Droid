@@ -1,10 +1,5 @@
 # Secure Element Evaluation Kit for the Android platform #
 
-
-## Latest News ##
-  * **New version available:** Smartcard API 3.2.1 (based on Android 4.4 KitKat) is already available for download [here](https://drive.google.com/uc?export=download&id=0B63jMJOYc2l3UXJFWVdaQUlyeFk).
-  * **Downloads section moved:** please notice that new files will be uploaded to Google Drive as Google is no longer supporting file hosting on Google Groups.
-
 ## Vision ##
 Our vision is that Android becomes an important platform for developing and deploying security-based applications, thanks to its openness and the strength of its tools. Finally, all code should be contributed into the Android platform in order to have hardware-based security support in every new Android phone.<br />
 
