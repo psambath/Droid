@@ -1,3 +1,13 @@
+### v4.0.0 - 24.07.2015 ###
+  * Version string 4.0.0 - Version code 8
+  * Based on Android 5.0.0 (Lollipop), overcomes issue with O_DIRECT that appeared on KitKat
+  * Adapted to Open Mobile API v3.0
+    * Implement openBasic/LogicalChannel with P2 parameter
+    * Ensure support of Extended Length APDUs
+  * Adapted to Open Mobile Test Spec v2.0
+  * Architectural refactor for easier maintenance
+  * Other bug fixes
+
 #### v3.1.0 - 13.12.2013 ####
   * Version string 3.1 - Version code 6
   * Maintenance release for JB 4.3 & 4.2
