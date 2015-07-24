@@ -2,6 +2,7 @@
 
 | Version | Date | Code | Android | OMAPI |
 |:--------|:-----|:-----|:--------|:------|
+| 4.0.0 | 24.07.2015 | 8 | 5.0.0 | 3.0 |
 | 3.2.1 | 15.07.2014 | 6 | 4.4.4 | 2.05 |
 | 3.1.0 | 27.09.2013 | 5 | 4.3 | 2.04 |
 | 3.0.0 | 07.04.2013 | 4 | 4.2.2 | 2.03 |
@@ -22,10 +23,21 @@
 
 <br />
 
+### v4.0.0 ###
+  * Based on Android 5.0.0 (Lollipop)
+  * Adapted to Open Mobile API v3.0
+    * Implement openBasic/LogicalChannel with P2 parameter
+    * Ensure support of Extended Length APDUs
+  * Adapted to Open Mobile Test Spec v2.0
+  * Architectural refactor for easier maintenance
+  * New terminal interface: SmartcardService has no HW-related permissions, terminals run on their own context.
+  * Fix issues: #37, #88
+  * Other bug fixes
+
 ### v3.2.1 ###
   * Based on Android 4.4.4 (KitKat)
   * Adaptation to Open Mobile API v2.05
-  * Adaptation to Open Mobile Test Spect 1.0 + Errata Document
+  * Adaptation to Open Mobile Test Spec 1.0 + Errata Document
   * Changelog:
     * Fix getSelectResponse()
     * Fix selectNext()
