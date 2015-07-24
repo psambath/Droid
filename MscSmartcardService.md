@@ -21,7 +21,7 @@ It is required that no caching mechanism is in between that block direct file ac
 To test the <i>MSC SmartcardService</i>
 <ul><li>delete older version of MSC SmartcardService.apk and OpenMobileAPISample.apk on the phone</li></ul>
 
-<ul><li>download the <a href='https://code.google.com/p/seek-for-android/downloads/detail?name=MSC_SmartCardService-3_1_0.tgz'>MSC-SmartcardService-3_1_0.tgz</a> and extract the content</li></ul>
+<ul><li>download the <a href='https://drive.google.com/file/d/0B63jMJOYc2l3R0FqUDl6eS1UTEk/view'>MSC-SmartcardService-4_0_0.zip</a> and extract the content</li></ul>
 
 <ul><li>ensure that <i>USB debugging</i> is enabled on the phone<br />(<i>Settings</i> - <i>Applications</i> - <i>Development</i> - <i>USB debugging</i>)</li></ul>
 
