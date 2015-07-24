@@ -1,12 +1,14 @@
 
 <h1>Introduction</h1>
 
-For using the Android emulator with a real SIM or microSD card with integrated secure element, the emulator must be built with PC/SC support through applies the emulator patch.<br />
+For using the Android emulator with a real SIM or microSD card with integrated secure element, the emulator must be built with PC/SC support by applying the emulator patch.
 
 <h2>1. UICC Support in Android Emulator</h2>
 
-The vanilla Android emulator supports a primitive SIM simulation which cannot be used to run applets or personalize files nor does it support Sim Toolkit functionality.<br />
-On real devices, the proprietary RIL library is very restrictive in terms of APDU access to the SIM or STK support and (normally) needs to be extended. However, on the emulator a patch can be applied in order to provide full SIM access through the host PC/SC system.<br />
+The vanilla Android emulator supports a primitive SIM simulation which cannot be used to run applets or personalize files nor does it support Sim Toolkit functionality.
+
+On real devices, the proprietary RIL library is very restrictive in terms of APDU access to the SIM or STK support and (normally) needs to be extended. However, on the emulator a patch can be applied in order to provide full SIM access through the host PC/SC system.
+
 This extension enables the Android emulator to forward any APDU traffic (AT+CRSM, AT+CSIM, etc. commands) to a real SIM card that is connected through a PC/SC card reader and accessible with pcsc-lite running on the host. Additionally, this patch adds the missing support for the Sim Toolkit framework to the emulator's RIL implementation (reference-ril).<br>
 
 ![emulator-extensions](https://cloud.githubusercontent.com/assets/11645011/6865784/c87cc5c8-d471-11e4-8bcf-cfbcd8487c80.png)
@@ -14,10 +16,10 @@ This extension enables the Android emulator to forward any APDU traffic (AT+CRSM
 
 ### 1.1 Applying the patch to the android sources ###
 
-  * Download the [smartcard-api-3\_2\_1.tgz](https://drive.google.com/file/d/0B63jMJOYc2l3UXJFWVdaQUlyeFk/edit?usp=sharing) archive
+  * Download the [smartcard-api-4\_0\_0.tgz](https://drive.google.com/file/d/0B63jMJOYc2l3SjZXSThtMkprNEk/view) archive
   * Unpack the patch archive:
 ```
-$ tar xvzf smartcard-api-3_2_1.tgz
+$ tar xvzf smartcard-api-4_0_0.tgz
 ```
   * Apply the patches in the root folder of the Android source tree:
 ```
@@ -35,44 +37,37 @@ $ cd <path_to_pcsc-lite_64bit>
 $ CFLAGS="-m64" LDFLAGS="-m64" ./configure; make
 ```
 > Most problems compiling the Android emulator arise from missing or invalid pcsc-lite libraries as they need to be provided twice. Please check with `readelf -h` if one `libpcsclite.so` is ELF32 and the other one ELF64!
+
   * Setup build environment:
 ```
 $ cd <ANDROID_ROOT_DIR>
 $ . build/envsetup.sh 
-$ lunch full-eng
+$ lunch aosp_x86-eng
 ```
-  * Update current.xml as the system needs to known the new IDs (if not already done):
+  * Build the emulator with PC/SC support:
 ```
-$ make update-api
+$ cd external/qemu
+$ export PCSC_INCPATH=<path_to_pcsc-lite_32bit>/src/PCSC/
+$ export PCSC32_LIBPATH=<path_to_pcsc-lite_32bit>/src/.libs/
+$ export PCSC64_LIBPATH=<path_to_pcsc-lite_64bit>/src/.libs/
+$ ./android-configure.sh
+$ make -jX
 ```
-  * Build the emulator with PC/SC support within the product SDK:
+  * The emulator can then be found at
 ```
-$ PCSC_INCPATH=<path_to_pcsc-lite_32bit>/src/PCSC/ PCSC32_LIBPATH=<path_to_pcsc-lite_32bit>/src/.libs/ PCSC64_LIBPATH=<path_to_pcsc-lite_64bit>/src/.libs/ make -j32 PRODUCT-sdk-sdk
-```
-  * The sdk can then be found at
-```
-<ANDROID_ROOT_DIR>/out/host/linux-x86/sdk/
+./external/qemu/objs/emulator
 ```
 
-  * Start SDK Manager with:
-```
-$ ./out/host/linux-x86/sdk/android-sdk_eng.<username>_linux-x86/tools/android
-```
-> The full path name is necessary since you might have also an offical installation of the Android SDK in your PATH already.
-  * If you want to develop applications using the Smartcard API the shared library approach is recommended. Therefore your self compiled sdk needs the Shared library addon which can be found at
-```
-http://seek-for-android.googlecode.com/svn/trunk/repository/<API-level>/addon.xml 
-```
-  * In case the SDK Manager wants to update SDK Tools from the Internet do not execute this action as otherwise the PCSC-enabled emulator image will be overwritten with the official Google release. It is recommended to use a separate Android SDK folder e.g. the official Version to download the addon and then copy it to your own SDK. The addons are located here
-```
-<ANDROID_ROOT_DIR>/out/host/linux-x86/sdk/android-sdk_eng.<username>_linux-x86/add-ons/
-```
-> > ![screenshotandroidsdkmanager](https://cloud.githubusercontent.com/assets/11645011/6865787/ced35aea-d471-11e4-905e-2940f7353a34.png)
-  * Create an AVD with behalf of the AVD Manager "Tools->Manage AVD's..."
-> > ![screenshotandroidvirtualdevicemanager](https://cloud.githubusercontent.com/assets/11645011/6865790/d5e844f8-d471-11e4-9342-ddfdf6edd6a5.png)
+![screenshotandroidsdkmanager](https://cloud.githubusercontent.com/assets/11645011/6865787/ced35aea-d471-11e4-905e-2940f7353a34.png)
+
+  * Create an AVD with API 21 with behalf of the AVD Manager "Tools->Manage AVD's..."
+
+![screenshotandroidvirtualdevicemanager](https://cloud.githubusercontent.com/assets/11645011/6865790/d5e844f8-d471-11e4-9342-ddfdf6edd6a5.png)
+
   * Start the emulator
 ```
-$ ./out/host/linux-x86/sdk/android-sdk_eng.<username>_linux-x86/tools/emulator @testAvd -pcsc 
+$ cd <ANDROID_ROOT_DIR>
+$ ./external/qemu/objs/emulator @<name> -kernel ./prebuilts/qemu-kernel/x86/kernel-qemu -system $OUT/system.img -ramdisk $OUT/ramdisk.img -gpu on -pcsc
 ```
 
 > When `-pcsc` does not contain a valid PCSC card reader name the first available reader will be used.
@@ -84,23 +79,22 @@ sim_card.c: OMNIKEY AG CardMan 3121 00 00
 sim_card.c: using card reader OMNIKEY AG CardMan 3121 00 00
 ```
 
-  * To start the emulator from the eclipse ide, add the command line parameter "-pcsc" via _Run -> Debug Configurations/Run Configurations -> Additional Emulator Command Line Options_
-
 ![EmulatorExtensionScreenShoot](https://cloud.githubusercontent.com/assets/11645011/6865792/dd202178-d471-11e4-84f0-2125bd9e4fd9.png)
 
 ### 1.2 Speed up the emulator ###
-The default ARM image created with `make PRODUCT-sdk-sdk` might run a bit slow in `qemu` on the host machine but with KVM support and an x86 Android image the execution speed of the emulator can be enhanced A LOT.
-See [here](http://developer.android.com/tools/devices/emulator.html)<br />
+The default ARM image might run a bit slow in `qemu` on the host machine but with KVM support and an x86 Android image the execution speed of the emulator can be enhanced A LOT.
+See [here](http://developer.android.com/tools/devices/emulator.html)
+
 To create the x86 emulator image compile with
 ```
-make PRODUCT-sdk_x86-sdk
+source build/envsetup.sh
+lunch aosp_x86-eng
+make update-api
+make -jX
 ```
-and start the emulator with
-```
-emulator @testAvd -pcsc -gpu on -qemu -m 1024 -enable-kvm
-```
+
 Of course, KVM must be available in the host environment.
-When problems occur `-verbose` as command line option might help to trace down the problem.<br /><br />
+When problems occur `-verbose` as command line option might help to trace down the problem.
 
 ## 2. ASSD Support in Android Emulator (for microSD with integrated secure element) -- Not maintained ##
 
@@ -154,7 +148,9 @@ ANDROID_SDK_ROOT=<path_to_android-sdk-linux> ./out/host/linux-x86/bin/emulator
   * In the emulator output there will information shown regarding the status of ASSD support, e.g.
 `goldfish_mmc: ASSD is ready`
 `goldfish_mmc: ASSD available`
-<br /><br />
+
+
+
 
 ## 3. Command line interface ##
 After the emulator extensions patch is applied, these command-line options are available to the emulator.
