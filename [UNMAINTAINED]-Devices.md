@@ -32,6 +32,9 @@ The following devices summarizes all commercially available devices that have Sm
 <tr><td> Sony Xperia U (ST25i) </td><td>  </td><td>  </td><td>  </td><td> 2.3.4 </td><td>  </td><td> - </td><td> + </td><td> - </td><td>  </td><td> reported by Sony </td></tr>
 <tr><td> Sony Xperia Sola (MT27i) </td><td>  </td><td>  </td><td>  </td><td> 2.3.4 </td><td>  </td><td> - </td><td> + </td><td> - </td><td>  </td><td> reported by Sony </td></tr>
 <tr><td> Sony Xperia Go (ST27i) </td><td>  </td><td>  </td><td>  </td><td> 2.3.4 </td><td>  </td><td> - </td><td> + </td><td> - </td><td>  </td><td> reported by Sony </td></tr></tbody></table>
+<tr><td> Samsung Galaxy Pocket Neo (GT-S5312) </td><td>  </td><td>  </td><td>  </td><td> 2.3.2 </td><td>  </td><td> - </td><td> + </td><td> + </td><td>  </td><td> reported by user </td></tr></tbody></table>
+<tr><td> Samsung Galaxy S5 (SM-G900F) for Europe </td><td>  </td><td>  </td><td>  </td><td> 3.1.0 </td><td>  </td><td> - </td><td> + </td><td> - </td><td>  </td><td> reported by user </td></tr></tbody></table>
+<tr><td> Samsung Galaxy S6  (SM-G920I - LATAM, Singapore, India, Australia) </td><td>  </td><td>  </td><td>  </td><td> 3.1.0 </td><td>  </td><td> - </td><td> + </td><td> - </td><td>  </td><td> reported by user </td></tr></tbody></table>
 
 <i>note</i> SCAPI-2.3.4 is based on 2.3.2 with internal adaptations from Sony<br>
 <br>
