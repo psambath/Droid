@@ -25,21 +25,21 @@ The following devices summarizes all commercially available devices that have Sm
 
 <table>
 <thead><th> <b>Device</b> </th><th> </th><th> <b>OS build</b> </th><th> <b>BB build</b> </th><th> <b> SCAPI </b> </th><th> </th><th> <b>UICC</b> </th><th> <b>UICC</b> </th><th> <b>eSE</b> </th> <th>  </th>  <th> <b>Notes</b> </th></thead><tbody>
+
 <tr><td> Samsung GT-I9100P </td><td>  </td><td> <font size='1'>GINGERBREAD.XXLA3 </td><td><font size='1'>I9100PXXKI3 </td><td> 2.2.2 </td><td>  </td><td> - </td><td> + </td><td> - </td><td>  </td><td> <a href='https://github.com/sunyer/Seek-for-Android/wiki/DeviceDetails'>details</a> </td></tr>
 <tr><td> Samsung GT-I9300 </td><td>  </td><td> <font size='1'>IMM76D.I9300XXALEF </td><td><font size='1'>I9300XXLEF </td><td> 2.3.2 </td><td>  </td><td> - </td><td> + </td><td> - </td><td>  </td><td> <a href='https://github.com/sunyer/Seek-for-Android/wiki/DeviceDetails'>details</a> </td></tr>
 <tr><td> Sony Xperia S (LT26i) </td><td>  </td><td> <font size='1'>6.0.A.3.75 </td><td> <font size='1'>M8660-AAABQOLYM-314005T </td><td> 2.3.4 </td><td>  </td><td> - </td><td> + </td><td> - </td><td>  </td><td> <a href='https://github.com/sunyer/Seek-for-Android/wiki/DeviceDetails'>details</a> </td></tr>
 <tr><td> Sony_Xperia_P_(LT22i) </td><td>  </td><td>  </td><td>  </td><td> 2.3.4 </td><td>  </td><td> - </td><td> + </td><td> - </td><td>  </td><td> reported_by_Sony </td></tr>
 <tr><td> Sony Xperia U (ST25i) </td><td>  </td><td>  </td><td>  </td><td> 2.3.4 </td><td>  </td><td> - </td><td> + </td><td> - </td><td>  </td><td> reported by Sony </td></tr>
 <tr><td> Sony Xperia Sola (MT27i) </td><td>  </td><td>  </td><td>  </td><td> 2.3.4 </td><td>  </td><td> - </td><td> + </td><td> - </td><td>  </td><td> reported by Sony </td></tr>
-<tr><td> Sony Xperia Go (ST27i) </td><td>  </td><td>  </td><td>  </td><td> 2.3.4 </td><td>  </td><td> - </td><td> + </td><td> - </td><td>  </td><td> reported by Sony </td></tr></tbody></table>
-<tr><td> Samsung Galaxy Pocket Neo (GT-S5312) </td><td>  </td><td>  </td><td>  </td><td> 2.3.2 </td><td>  </td><td> - </td><td> + </td><td> + </td><td>  </td><td> reported by user </td></tr></tbody></table>
-<tr><td> Samsung Galaxy S5 (SM-G900F) for Europe </td><td>  </td><td>  </td><td>  </td><td> 3.1.0 </td><td>  </td><td> - </td><td> + </td><td> - </td><td>  </td><td> reported by user </td></tr></tbody></table>
-<tr><td> Samsung Galaxy S6  (SM-G920I - LATAM, Singapore, India, Australia) </td><td>  </td><td>  </td><td>  </td><td> 3.1.0 </td><td>  </td><td> - </td><td> + </td><td> - </td><td>  </td><td> reported by user </td></tr></tbody></table>
+<tr><td> Sony Xperia Go (ST27i) </td><td>  </td><td>  </td><td>  </td><td> 2.3.4 </td><td>  </td><td> - </td><td> + </td><td> - </td><td>  </td><td> reported by Sony </td></tr>
+<tr><td> Samsung Galaxy Pocket Neo (GT-S5312) </td><td>  </td><td>  </td><td>  </td><td> 2.3.2 </td><td>  </td><td> - </td><td> + </td><td> + </td><td>  </td><td> reported by user </td></tr>
+<tr><td> Samsung Galaxy S5 (SM-G900F) for Europe </td><td>  </td><td>  </td><td>  </td><td> 3.1.0 </td><td>  </td><td> - </td><td> + </td><td> - </td><td>  </td><td> reported by user </td></tr>
+<tr><td> Samsung Galaxy S6  (SM-G920I - LATAM, Singapore, India, Australia) </td><td>  </td><td>  </td><td>  </td><td> 3.2.1 </td><td>  </td><td> - </td><td> + </td><td> - </td><td>  </td><td> reported by user </td></tr>
+</tbody></table>
 
-<i>note</i> SCAPI-2.3.4 is based on 2.3.2 with internal adaptations from Sony<br>
-<br>
-<br>
-<br><br>
+<h4><i>Note:</i></h4>SCAPI-2.3.4 is based on 2.3.2 with internal adaptations from Sony
+
 <h3>MSC SmartcardService</h3>
 All devices with SD slot and transparent access to the SD flash memory are supported by the MSC SmartCardService or the MscPluginTerminal.<br />
 The following devices were reported not to work due to the missing direct access to the flash memory<br>
@@ -49,4 +49,4 @@ The following devices were reported not to work due to the missing direct access
 <tr><td> Motorola Droid </td><td>  </td><td>  </td><td>  </td><td>  </td><td>  </td><td> reported by G&D SFS</td></tr>
 <tr><td> Motorola Atrix </td><td>  </td><td>  </td><td>  </td><td>  </td><td>  </td><td> reported by G&D SFS </td></tr></tbody></table>
 
-<i>note</i>: On devices where the SmartCard API is already installed, the MSC SmartcardService cannot be installed again. In such case, the MscPluginTerminal has to be used instead.
+<h4><i>Note:</i></h4>On devices where the SmartCard API is already installed, the MSC SmartcardService cannot be installed again. In such case, the MscPluginTerminal has to be used instead.
