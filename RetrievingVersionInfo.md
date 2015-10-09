@@ -10,15 +10,20 @@ Following method retrieves the version info of the SmartCard API:
 ```
     private String getScapiVersion() {
         try {
-	    PackageInfo packageInfo = getPackageManager().getPackageInfo("android.smartcard", 0);
-	    return packageInfo.versionName;
-	} catch (PackageManager.NameNotFoundException e1) {
-	    try {
-		PackageInfo packageInfo = getPackageManager().getPackageInfo("org.simalliance.openmobileapi.service", 0);
-		return packageInfo.versionName;
-	    } catch (PackageManager.NameNotFoundException e2) {
-		return "";
-	    }
-	}
+            PackageInfo packageInfo = getPackageManager().getPackageInfo("android.smartcard", 0);
+            return packageInfo.versionName;
+        } catch (PackageManager.NameNotFoundException e1) {
+            try {
+                PackageInfo packageInfo =  getPackageManager().getPackageInfo("org.simalliance.openmobileapi.service", 0);
+                return packageInfo.versionName;
+            } catch (PackageManager.NameNotFoundException e2) {
+                try {
+                    PackageInfo packageInfo = getPackageManager().getPackageInfo("com.sonyericsson.smartcard", 0);
+                    return packageInfo.versionName;
+                } catch (PackageManager.NameNotFoundException e3) {
+                    return "";
+                }
+            }
+        }
     }
 ```
