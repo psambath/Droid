@@ -51,7 +51,7 @@ The [3GPP TS 27.007 Technical Specification](http://www.3gpp.org/ftp/Specs/html-
 The _uicc.patch_ adds support for SIM card access to the telephony framework. The additional telephony framework methods shall be available for the [SmartCard API](SmartcardAPI) exclusively thus no malicious application can use the telephony extensions directly.
 
 Once the baseband processor supports the required AT commands, and the UICC patch has been applied, the [SmartCard API](SmartcardAPI) supports access to the SIM card with mentioned limitations. The RIL implementation on current Android phones do not support the required AT commands. For this reason the UICC patch includes an [emulator extension](EmulatorExtension) (emulator.patch), which adds support for the required AT commands to the emulator's RIL implementation (reference-ril).<br />
-Refer to [RIL\_Extensions.tgz](http://code.google.com/p/seek-for-android/downloads/detail?name=RIL_Extensions.tgz) for more information.
+Refer to [RIL\_Extensions.tgz](https://drive.google.com/open?id=0B63jMJOYc2l3MlhFVnBZQ05QZ3M) for more information.
 <br /><br />
 
 
