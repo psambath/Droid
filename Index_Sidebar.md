@@ -26,7 +26,7 @@
     * [Version History](https://github.com/sunyer/seek-for-android/wiki/MscVersionHistory)
 * **PC/SC Interface** 
     * [PC/SC Lite Discussion](https://github.com/sunyer/seek-for-android/wiki/PCSCLite)
-    * [Pcscdroid - PC/SC Lite for Android](https://github.com/sunyer/seek-for-android/wiki/Pcscdroid)
+    * [[UNMAINTAINED] Pcscdroid - PC/SC Lite for Android](https://github.com/sunyer/seek-for-android/wiki/Pcscdroid)
     * [PC/SC Support](https://github.com/sunyer/seek-for-android/wiki/PCSCSmartCardServiceIntro)
 * **Service Layer**
     * [Service Layer API](https://github.com/sunyer/seek-for-android/wiki/ServiceLayer)
