@@ -53,7 +53,7 @@ $ /data/data/com.gieseckedevrient.android.pcscdroid/files/testpcsc
 
 # Source Code and Compiling #
 
-First get the provided source code (in eclipse project) from our repository at _/trunk/applications/pcscdroid/_
+First get the provided source code (in eclipse project) from **[our repository](https://github.com/sunyer/Seek-for-Android/tree/master/applications/pcscdroid)**
 
 Before importing the project into Eclipse make sure you have the Android SDK and NDK setup and installed into eclipse.
 If Eclipse is setup correctly you should be able to import and build the project straight forward.
