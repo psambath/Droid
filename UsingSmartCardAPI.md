@@ -1,6 +1,6 @@
 # Introduction #
 
-This document explains how the SmartCard API for can be used to develop and test Android applications which communicate with Secure Elements available in the real device or the emulator.
+This document explains how the SmartCard API can be used to develop and test Android applications which communicate with Secure Elements available in the real device or the emulator.
 
 The tutorial refers to the shared library based SmartCard API implementing the Open Mobile API interface and is not suitable for application development relying on the MSC SmartCardService.
 
